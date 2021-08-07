@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://ezproxy.perdanauniversity.edu.my/shibboleth">
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEfDCCA2SgAwIBAgIBATANBgkqhkiG9w0BAQUFADCBijEpMCcGA1UEAxMgZXpwcm94eS5wZXJkYW5hdW5pdmVyc2l0eS5lZHUubXkxCzAJBgNVBAYTAk1ZMRswGQYDVQQKExJQZXJkYW5hIFVuaXZlcnNpdHkxMzAxBgkqhkiG9w0BCQEWJGl0LWhlbHBkZXNrQHBlcmRhbmF1bml2ZXJzaXR5LmVkdS5teTAeFw0xODA3MDgxMzQyMzdaFw0yODA3MDcxMzQyMzdaMIGKMSkwJwYDVQQDEyBlenByb3h5LnBlcmRhbmF1bml2ZXJzaXR5LmVkdS5teTELMAkGA1UEBhMCTVkxGzAZBgNVBAoTElBlcmRhbmEgVW5pdmVyc2l0eTEzMDEGCSqGSIb3DQEJARYkaXQtaGVscGRlc2tAcGVyZGFuYXVuaXZlcnNpdHkuZWR1Lm15MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA8YMAlg4WRqoU27PqARtZZUOdALZEKma7/YB1iU5G50sUg1Riutoc7odWtuRCcbR1A96CkbmH0uYX1K1F54zygApGgt+0aKXgzV6iv/jBv6pEHbzloBDZsF2DXb2/UArht5+vHDFEDylPhYWmkbLBC8RqhS1Bvy6/Q8ZqU4n0G/M7xxXo8NroAMa/EKZsZhqAqbTQm/AqFe5o6Uv71/17LfFY5nubCroQrHVOtt/l9Ubvru8wzrYflTFiIvs9Eq8oTwErj/PKcXyahmda0qghdd13Nm3uvSlgXyhapXceYQ9pGeFNswSdfoKyNKUs/aj22GZtH2pPBeRViJaHuGonRwIDAQABo4HqMIHnMB0GA1UdDgQWBBQTtM2w3vt7jTu73ST1/P/WgvkRhzCBtwYDVR0jBIGvMIGsgBQTtM2w3vt7jTu73ST1/P/WgvkRh6GBkKSBjTCBijEpMCcGA1UEAxMgZXpwcm94eS5wZXJkYW5hdW5pdmVyc2l0eS5lZHUubXkxCzAJBgNVBAYTAk1ZMRswGQYDVQQKExJQZXJkYW5hIFVuaXZlcnNpdHkxMzAxBgkqhkiG9w0BCQEWJGl0LWhlbHBkZXNrQHBlcmRhbmF1bml2ZXJzaXR5LmVkdS5teYIBATAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBQUAA4IBAQDrflJxAYup0vXn6cTM6N+TumHPwY7FHWcDpFxObL+uASNFmo5JQL0qZDoPPZ81IpV06o0uy+ANtulMHjXpqhxeEUrIJ3Opr8i2GaVnnhoxnynXhrXXl/zWgfOny0xj/eP5KLGVhFbkLwigyEgPBHx0HauBOL1ZCTzcfeK0O3b9vYN28ZUUPpBXP9eXWRO3mW/nMDEIoiWmsgAkWMNs13lGKOwXPndetVu2oB2dnSfNZvFHIoNsBXRTbNMyKL9utS/Q8xW5Fqb/uluyCtQbUSPjjYDciqdinRL5fGwXInwtPFrDO6j16P5k3+htHY7nuqciBWJ9+qXHNKHdNToKA1JG</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEfDCCA2SgAwIBAgIBATANBgkqhkiG9w0BAQUFADCBijEpMCcGA1UEAxMgZXpwcm94eS5wZXJkYW5hdW5pdmVyc2l0eS5lZHUubXkxCzAJBgNVBAYTAk1ZMRswGQYDVQQKExJQZXJkYW5hIFVuaXZlcnNpdHkxMzAxBgkqhkiG9w0BCQEWJGl0LWhlbHBkZXNrQHBlcmRhbmF1bml2ZXJzaXR5LmVkdS5teTAeFw0xODA3MDgxMzQyMzdaFw0yODA3MDcxMzQyMzdaMIGKMSkwJwYDVQQDEyBlenByb3h5LnBlcmRhbmF1bml2ZXJzaXR5LmVkdS5teTELMAkGA1UEBhMCTVkxGzAZBgNVBAoTElBlcmRhbmEgVW5pdmVyc2l0eTEzMDEGCSqGSIb3DQEJARYkaXQtaGVscGRlc2tAcGVyZGFuYXVuaXZlcnNpdHkuZWR1Lm15MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA8YMAlg4WRqoU27PqARtZZUOdALZEKma7/YB1iU5G50sUg1Riutoc7odWtuRCcbR1A96CkbmH0uYX1K1F54zygApGgt+0aKXgzV6iv/jBv6pEHbzloBDZsF2DXb2/UArht5+vHDFEDylPhYWmkbLBC8RqhS1Bvy6/Q8ZqU4n0G/M7xxXo8NroAMa/EKZsZhqAqbTQm/AqFe5o6Uv71/17LfFY5nubCroQrHVOtt/l9Ubvru8wzrYflTFiIvs9Eq8oTwErj/PKcXyahmda0qghdd13Nm3uvSlgXyhapXceYQ9pGeFNswSdfoKyNKUs/aj22GZtH2pPBeRViJaHuGonRwIDAQABo4HqMIHnMB0GA1UdDgQWBBQTtM2w3vt7jTu73ST1/P/WgvkRhzCBtwYDVR0jBIGvMIGsgBQTtM2w3vt7jTu73ST1/P/WgvkRh6GBkKSBjTCBijEpMCcGA1UEAxMgZXpwcm94eS5wZXJkYW5hdW5pdmVyc2l0eS5lZHUubXkxCzAJBgNVBAYTAk1ZMRswGQYDVQQKExJQZXJkYW5hIFVuaXZlcnNpdHkxMzAxBgkqhkiG9w0BCQEWJGl0LWhlbHBkZXNrQHBlcmRhbmF1bml2ZXJzaXR5LmVkdS5teYIBATAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBQUAA4IBAQDrflJxAYup0vXn6cTM6N+TumHPwY7FHWcDpFxObL+uASNFmo5JQL0qZDoPPZ81IpV06o0uy+ANtulMHjXpqhxeEUrIJ3Opr8i2GaVnnhoxnynXhrXXl/zWgfOny0xj/eP5KLGVhFbkLwigyEgPBHx0HauBOL1ZCTzcfeK0O3b9vYN28ZUUPpBXP9eXWRO3mW/nMDEIoiWmsgAkWMNs13lGKOwXPndetVu2oB2dnSfNZvFHIoNsBXRTbNMyKL9utS/Q8xW5Fqb/uluyCtQbUSPjjYDciqdinRL5fGwXInwtPFrDO6j16P5k3+htHY7nuqciBWJ9+qXHNKHdNToKA1JG</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://ezproxy.perdanauniversity.edu.my/Shibboleth.sso/SAML2/POST" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://ezproxy.perdanauniversity.edu.my/Shibboleth.sso/SAML2/Artifact" index="2"/>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en-US">Perdana University</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en-US">Ezproxy@library</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en-US">https://ezproxy.perdanauniversity.edu.my</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="technical">
+    <md:GivenName>IT</md:GivenName>
+    <md:EmailAddress>it-helpdesk@perdanauniversity.edu.my</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>
