@@ -1,0 +1,248 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<md:EntitiesDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:mdrpi="urn:oasis:names:tc:SAML:metadata:rpi" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xrd="http://docs.oasis-open.org/ns/xri/xrd-1.0" xmlns:pyff="http://pyff.io/NS" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ser="http://eidas.europa.eu/metadata/servicelist" xmlns:eidas="http://eidas.europa.eu/saml-extensions" Name="/metadata/pufed"><ds:Signature><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#WithComments"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>zP5kj3BzSQIpd4Wp5+AuHaiX9/PkDY9KwkSWRDfS+9A=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>LXfqeRxqTqUn8VtcW7Jd1iisRRbPLc6DNbty2ohHFjrrDdTgKUw4FLi2s++dzsa4/6HcRwe/jPgNng9+PbEkf0xXqs7qM6vnozlCZgaS8dc3y+usj4bhaOIGpPz7+EVSjw/J/a7gf4dZkhsSiB/5jNVOreLVcDMrWstdiJoV6izJdXi/+jTeNiPz6QIpky37y+dNNCp6X3JM3p34U8wSYYxuAzxbMQF+Ma6ZpCdoRpPTfFHvB3dOUpYVExQJ4U4CaR7oykl/tWhWY227rZOpmHPH7Tmv7EKAweA57E5dZtMinCdhWYxDRIshW9ig2fSGfGMHB+JNv/lBWlDze0PpA3WWsEXNwbj81K0AYxwQEJ7ZALtl+KwDNXVaL++kNnzKTJiEFew5LSe7f4vlzmWnrLyneyOWcmebpHJe7d/ZOnSTHGUIzbA9dqaWqeRhJDCwb46eNJljq3/bByo8cedpxc+njpYESdg0gb8Rma5DFZslwejdVqztlJ1uKyUDYxrQ</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEcjCCAtoCCQDnFhoAhWOF3DANBgkqhkiG9w0BAQsFADB7MQswCQYDVQQGEwJN
+WTEbMBkGA1UECgwSUGVyZGFuYSBVbml2ZXJzaXR5MRowGAYDVQQDDBFQVSBTU08g
+RmVkZXJhdGlvbjEzMDEGCSqGSIb3DQEJARYkaXQtaGVscGRlc2tAcGVyZGFuYXVu
+aXZlcnNpdHkuZWR1Lm15MB4XDTIxMDgwNzAyMjMyNFoXDTMxMDgwNzAyMjMyNFow
+ezELMAkGA1UEBhMCTVkxGzAZBgNVBAoMElBlcmRhbmEgVW5pdmVyc2l0eTEaMBgG
+A1UEAwwRUFUgU1NPIEZlZGVyYXRpb24xMzAxBgkqhkiG9w0BCQEWJGl0LWhlbHBk
+ZXNrQHBlcmRhbmF1bml2ZXJzaXR5LmVkdS5teTCCAaIwDQYJKoZIhvcNAQEBBQAD
+ggGPADCCAYoCggGBAN2yv+BP4to73ak4sEAFiNAutcDWiq68noINB7i0y+x0vKat
+tpR8c+gszrl4utZiXDpJXFQ+ewl8/27oW9ixmNuwCdoSmBb4A0x3yzA+QFKkh6lb
+Op/mgOa7M2ULCaO/+p1Rt7jaqBEiWv2QXN6gVhnor4K6euu7nhoo8iNYOpmW0I5g
+iUuQ2ppqybAGGbW/OkVrdCZpPEBgQ2PsffRqN42Dno6AuBg6kSiKeTPiO4+q7nao
+k38+AKokkudpTY2pRfbuPrgRAp3qZoY4qOqJSIcNvqQPddPfVnOdvNYiRWPTprxP
+e7JKhfWoY/bvmjLGFbCly5cDAIBqz+c0XuNHox/ekRYwTlMcGcnEirRpWtGJFD/D
+ER53F2mgcXl8f7Xr8sNUW8AOHpuI2SdNBkpdyAw7mKO7sapeyKAyMwmyXndOtSbX
+e/aRNiLs0NKKz+6SqfzHs4pann60uMs+9PUnXSuze+ZT9SNwhgjPn9CCWYWBppQ6
+LrW+sqSt6OvATjWt/wIDAQABMA0GCSqGSIb3DQEBCwUAA4IBgQBJ92oodypRjQWI
+LvWUWgWloxOmtM3RVBFmoM4ROTZvHV8XjB+ZHx5ThfjJZSFE5l3KjKEe5q9NFcM4
+WCrU8bSFYz+zPCTU9zTHd6E6KNlhbLiPU9XFBr7gbJVCqnrGhOdirEYZFMT6ecT4
+Jhiv1f6fOW2dYLWXrO90A5x+3jjuAq7Wzt+R8U2JhOFI6pKuqLnstoa5OcwYJ0xp
+3hCyrxBBdQgVZnyu2/FxhdLy6fmFNs/oCpxm23rI3wBDTtg7TAW2yzT/Wy5Pq8t6
+Xt8unUAAgmMBCQHOvp0KHOYwqDzBZSYlhoAMTM/1dSCyGFbG1DTIRwRUTff+VqDb
+aZSmcp5Y5+kiFWIARTjroevd7ErH59pq6rUnFZIoCNxa4IMYKc6+nd5w1tff3dig
+XifJNLhOu8t/Su1a4TYlbcBJocTMxOUaGJTaUPHZpULL7Lv2Jq3FfuUOb5VHZFi6
+OYjLbEbldussx/zp6zbHLXqxjh/Q/GK1kCwiKXMrrOQjRTdolm4=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature><md:EntityDescriptor entityID="https://activ.perdanauniversity.edu.my/shibboleth">
+
+  <md:Extensions xmlns:alg="urn:oasis:names:tc:SAML:metadata:algsupport">
+    <alg:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/>
+    <alg:DigestMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#sha384"/>
+    <alg:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+    <alg:DigestMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#sha224"/>
+    <alg:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+    <alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha512"/>
+    <alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha384"/>
+    <alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha256"/>
+    <alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha224"/>
+    <alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/>
+    <alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha384"/>
+    <alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+    <alg:SigningMethod Algorithm="http://www.w3.org/2009/xmldsig11#dsa-sha256"/>
+    <alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha1"/>
+    <alg:SigningMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+    <alg:SigningMethod Algorithm="http://www.w3.org/2000/09/xmldsig#dsa-sha1"/>
+  </md:Extensions>
+
+  <md:SPSSODescriptor AuthnRequestsSigned="1" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:Extensions>
+      <init:RequestInitiator xmlns:init="urn:oasis:names:tc:SAML:profiles:SSO:request-init" Binding="urn:oasis:names:tc:SAML:profiles:SSO:request-init" Location="https://activ.perdanauniversity.edu.my/Shibboleth.sso/Login"/>
+    </md:Extensions>
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:KeyName>activ.perdanauniversity.edu.my</ds:KeyName>
+        <ds:KeyName>https://activ.perdanauniversity.edu.my/shibboleth</ds:KeyName>
+        <ds:X509Data>
+          <ds:X509SubjectName>CN=activ.perdanauniversity.edu.my</ds:X509SubjectName>
+          <ds:X509Certificate>MIIEVDCCArygAwIBAgIJAL+Un+oLxtuxMA0GCSqGSIb3DQEBCwUAMCkxJzAlBgNV
+BAMTHmFjdGl2LnBlcmRhbmF1bml2ZXJzaXR5LmVkdS5teTAeFw0yMTA2MDEwODM4
+MjdaFw0zMTA1MzAwODM4MjdaMCkxJzAlBgNVBAMTHmFjdGl2LnBlcmRhbmF1bml2
+ZXJzaXR5LmVkdS5teTCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBAKQe
+mpl3ovr1Bs3JeyZ2y3/nGMC1L3a/o+5ACnS5TJjbrjz/lTX/sqB5WMSB9/YyKx+U
+r+607YGSgYerNBJxhH/TEDJEsbDe0n4QPQuHayH3I2adqeBMvgO9hzKsmK3gt9od
+EsGbupm8Ay/0qBXRWiPrIMSK+oqBZ7C3v5Cu9c1kGgmo6fUn/K3OXWfxZu1gEHmL
+NmFQYJ0SXfqg2Ug5M9wSMTeEDptaahaXQGPWYdLv3rKp888e5NqHQPL4Bsw/pwB7
+aAIy2rKeV5AVuWW/q6+6uMAJw3hl2E6pxm5hwHC2BDOcwq1f4lxuNEjNwcgBSeT7
++R77+w3w8X1DhuNro5x1hVDrWVppwFfuNlck1W7u2ktU5VkyQAlEZ8vbhhjWB2d8
+lbBPcwS3Ymt+4UOdLVZwEMmCtaOIXnibzs4jBsuMvs1PM+jc73Lu2hb6V+gKT/Oi
++uSYk0ZD/goNtyWJE4/e12SgfjjVam7DzZnhVhGSVT6Y1jQNPoAJLcShRoxkMwID
+AQABo38wfTBcBgNVHREEVTBTgh5hY3Rpdi5wZXJkYW5hdW5pdmVyc2l0eS5lZHUu
+bXmGMWh0dHBzOi8vYWN0aXYucGVyZGFuYXVuaXZlcnNpdHkuZWR1Lm15L3NoaWJi
+b2xldGgwHQYDVR0OBBYEFHMrqR9eFLzHgKzVz81oMJJaW56YMA0GCSqGSIb3DQEB
+CwUAA4IBgQBpcE0v63RDKcamNB9oXZiuvY2k7IIPSaRdTs1XYTm43vv2QHzsnR5p
+BkYyeCe0drv9QQGyP6sAWUDGZ0xsYo8v8OYQ93NFYIrtTrAi27a4KpIMZvZ78HHj
+C1BXdX+tn+R7QB/VhQhGS1Z5lfIC6YhPbtWb+ZaQtMAqJ8/Qn4pm3V/F1pXgPcqX
+IVdEmGNz+8lCEOKbtqFjFmdhkqROBvZKHK4xIf7zEL1CGaf1CBCnv0urPKeftc+I
+F/I/TZmkxlF0XMK1T//ODamDBMcG2w9h2KmRvcypA1MhVss4nYHyW8CKAvj/3aE+
+VeqZleH8Cd49Y3yRSAAMadPVjnr8EMyW+wEncX7WZJS+Dtnjr7fx0AXFGkAD1GP/
+pd5sQw1ajOULLz5MTF39/DoP/X3/zL0ZrF2DxgjXaxrohnZS1yo1HZOjA0CJskfg
+vitnCA/w5hU6zdaXdntSFd/41Z2ZSRzpvNTCHivaxyUwmRA8EJHYHbjwMLPzFgtm
+E/ntkNLfmgw=
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:KeyName>activ.perdanauniversity.edu.my</ds:KeyName>
+        <ds:KeyName>https://activ.perdanauniversity.edu.my/shibboleth</ds:KeyName>
+        <ds:X509Data>
+          <ds:X509SubjectName>CN=activ.perdanauniversity.edu.my</ds:X509SubjectName>
+          <ds:X509Certificate>MIIEVDCCArygAwIBAgIJAMQj5nQsZo84MA0GCSqGSIb3DQEBCwUAMCkxJzAlBgNV
+BAMTHmFjdGl2LnBlcmRhbmF1bml2ZXJzaXR5LmVkdS5teTAeFw0yMTA2MDEwODM4
+MThaFw0zMTA1MzAwODM4MThaMCkxJzAlBgNVBAMTHmFjdGl2LnBlcmRhbmF1bml2
+ZXJzaXR5LmVkdS5teTCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBALH6
+PYmWyiIF7G7K+nB+sT+zMfVJr1s9/cI1FrGz10V2fuYqs2X7RtDurX3iLNXkRbYk
+E5ug7opHa2X3rZaQ5dn6xcEX1Ne5Rd5ZTvLIs/U9vca+/wYMIi7iTQspi2wzIup9
+TAx+aReSuuEziUTAeXCH2PJA5XQ1PFl0L8sisaYLEad+N2OpValqESBYl2wY8ei4
+z+cTflMo2IAbS8lZ1ei3A71hUlZl6iuMiRLAtibTqrr59dh/e7Kl2RL85S336Xum
+rLg6TelXqK2N3SYTq1l5O+vCN32cDiNVv6fho0nEybAEonfC2h2aiBMwTCuYicSz
+U8sTIyqnqYbmZP1iXaaQ7E3rTjIHw5wdDpeqAPIyO6e96NafiiyO6Pz+lB2sFRMi
+dZfQV1Ie4QH6wmQA+Aa2GSwtAQu5CZ/5VBiRcduX9fOUjqeCf35TnBcNfDQC18cI
+zokWAARH3chtpRcJUvRYgmS6FRy7UuWVz6Tnag72+v8Rx0wra43nRy31q4S/IwID
+AQABo38wfTBcBgNVHREEVTBTgh5hY3Rpdi5wZXJkYW5hdW5pdmVyc2l0eS5lZHUu
+bXmGMWh0dHBzOi8vYWN0aXYucGVyZGFuYXVuaXZlcnNpdHkuZWR1Lm15L3NoaWJi
+b2xldGgwHQYDVR0OBBYEFF+ftfJM4JUYliJK8C2CljdLSM4ZMA0GCSqGSIb3DQEB
+CwUAA4IBgQBQIh3D9ANN5wQhHsYW9neXnOyxBAhSDM6cAmHFaledKll4yuB5X/0z
+I+MbXA/oqOaXAMzV6lHleFrCjsNaitxp3XGELHqgCxn+GxWsgk/G0ZD1djjB7K1k
+hN1pF32L+RvBDN7JWvDX+a0aQ+0uUAyJEUP6oryd3IMX8o2s8tKZq2YftfFEyEM2
+Tn7nQfTEn99EhO2H6KoHR/N/mszTTX0SPx/WkRtSFnQum01KOLwQrV58/t/TGSKv
+wxTboSk54bpm+EkPOSN57gAc33FSR0YzovPcScSWtBsliUnaEHycRT4c2t8an8JP
+zT4KE/+dC5Js/pHha2ddjah7F9Uo6rodn1DWRkw60S6LdnGBJSg6/oC5n7wtnVDi
+kqfSHNdhooVoxqen2Uy/sb8vJk+dJRkF2gKYULAhbM7mjW0GT0w48EBeqpNYA2mC
+IOlO3YswVKCPLnu4DcKZljVoDv4gecxsBOoMT/if6JeSS+JOZ9ycUFT4V7JJd0Zh
+rQG9j1H6uVs=
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+      <md:EncryptionMethod Algorithm="http://www.w3.org/2009/xmlenc11#aes128-gcm"/>
+      <md:EncryptionMethod Algorithm="http://www.w3.org/2009/xmlenc11#aes192-gcm"/>
+      <md:EncryptionMethod Algorithm="http://www.w3.org/2009/xmlenc11#aes256-gcm"/>
+      <md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-cbc"/>
+      <md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes192-cbc"/>
+      <md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc"/>
+      <md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/>
+      <md:EncryptionMethod Algorithm="http://www.w3.org/2009/xmlenc11#rsa-oaep"/>
+      <md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p"/>
+    </md:KeyDescriptor>
+    <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://activ.perdanauniversity.edu.my/Shibboleth.sso/Artifact/SOAP" index="1"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://activ.perdanauniversity.edu.my/Shibboleth.sso/SLO/SOAP"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://activ.perdanauniversity.edu.my/Shibboleth.sso/SLO/Redirect"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://activ.perdanauniversity.edu.my/Shibboleth.sso/SLO/POST"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://activ.perdanauniversity.edu.my/Shibboleth.sso/SLO/Artifact"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://activ.perdanauniversity.edu.my/Shibboleth.sso/SAML2/POST" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://activ.perdanauniversity.edu.my/Shibboleth.sso/SAML2/POST-SimpleSign" index="2"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://activ.perdanauniversity.edu.my/Shibboleth.sso/SAML2/Artifact" index="3"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:PAOS" Location="https://activ.perdanauniversity.edu.my/Shibboleth.sso/SAML2/ECP" index="4"/>
+  </md:SPSSODescriptor>
+
+</md:EntityDescriptor><md:EntityDescriptor entityID="https://ezproxy.perdanauniversity.edu.my/shibboleth">
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEfDCCA2SgAwIBAgIBATANBgkqhkiG9w0BAQUFADCBijEpMCcGA1UEAxMgZXpwcm94eS5wZXJkYW5hdW5pdmVyc2l0eS5lZHUubXkxCzAJBgNVBAYTAk1ZMRswGQYDVQQKExJQZXJkYW5hIFVuaXZlcnNpdHkxMzAxBgkqhkiG9w0BCQEWJGl0LWhlbHBkZXNrQHBlcmRhbmF1bml2ZXJzaXR5LmVkdS5teTAeFw0xODA3MDgxMzQyMzdaFw0yODA3MDcxMzQyMzdaMIGKMSkwJwYDVQQDEyBlenByb3h5LnBlcmRhbmF1bml2ZXJzaXR5LmVkdS5teTELMAkGA1UEBhMCTVkxGzAZBgNVBAoTElBlcmRhbmEgVW5pdmVyc2l0eTEzMDEGCSqGSIb3DQEJARYkaXQtaGVscGRlc2tAcGVyZGFuYXVuaXZlcnNpdHkuZWR1Lm15MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA8YMAlg4WRqoU27PqARtZZUOdALZEKma7/YB1iU5G50sUg1Riutoc7odWtuRCcbR1A96CkbmH0uYX1K1F54zygApGgt+0aKXgzV6iv/jBv6pEHbzloBDZsF2DXb2/UArht5+vHDFEDylPhYWmkbLBC8RqhS1Bvy6/Q8ZqU4n0G/M7xxXo8NroAMa/EKZsZhqAqbTQm/AqFe5o6Uv71/17LfFY5nubCroQrHVOtt/l9Ubvru8wzrYflTFiIvs9Eq8oTwErj/PKcXyahmda0qghdd13Nm3uvSlgXyhapXceYQ9pGeFNswSdfoKyNKUs/aj22GZtH2pPBeRViJaHuGonRwIDAQABo4HqMIHnMB0GA1UdDgQWBBQTtM2w3vt7jTu73ST1/P/WgvkRhzCBtwYDVR0jBIGvMIGsgBQTtM2w3vt7jTu73ST1/P/WgvkRh6GBkKSBjTCBijEpMCcGA1UEAxMgZXpwcm94eS5wZXJkYW5hdW5pdmVyc2l0eS5lZHUubXkxCzAJBgNVBAYTAk1ZMRswGQYDVQQKExJQZXJkYW5hIFVuaXZlcnNpdHkxMzAxBgkqhkiG9w0BCQEWJGl0LWhlbHBkZXNrQHBlcmRhbmF1bml2ZXJzaXR5LmVkdS5teYIBATAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBQUAA4IBAQDrflJxAYup0vXn6cTM6N+TumHPwY7FHWcDpFxObL+uASNFmo5JQL0qZDoPPZ81IpV06o0uy+ANtulMHjXpqhxeEUrIJ3Opr8i2GaVnnhoxnynXhrXXl/zWgfOny0xj/eP5KLGVhFbkLwigyEgPBHx0HauBOL1ZCTzcfeK0O3b9vYN28ZUUPpBXP9eXWRO3mW/nMDEIoiWmsgAkWMNs13lGKOwXPndetVu2oB2dnSfNZvFHIoNsBXRTbNMyKL9utS/Q8xW5Fqb/uluyCtQbUSPjjYDciqdinRL5fGwXInwtPFrDO6j16P5k3+htHY7nuqciBWJ9+qXHNKHdNToKA1JG</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEfDCCA2SgAwIBAgIBATANBgkqhkiG9w0BAQUFADCBijEpMCcGA1UEAxMgZXpwcm94eS5wZXJkYW5hdW5pdmVyc2l0eS5lZHUubXkxCzAJBgNVBAYTAk1ZMRswGQYDVQQKExJQZXJkYW5hIFVuaXZlcnNpdHkxMzAxBgkqhkiG9w0BCQEWJGl0LWhlbHBkZXNrQHBlcmRhbmF1bml2ZXJzaXR5LmVkdS5teTAeFw0xODA3MDgxMzQyMzdaFw0yODA3MDcxMzQyMzdaMIGKMSkwJwYDVQQDEyBlenByb3h5LnBlcmRhbmF1bml2ZXJzaXR5LmVkdS5teTELMAkGA1UEBhMCTVkxGzAZBgNVBAoTElBlcmRhbmEgVW5pdmVyc2l0eTEzMDEGCSqGSIb3DQEJARYkaXQtaGVscGRlc2tAcGVyZGFuYXVuaXZlcnNpdHkuZWR1Lm15MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA8YMAlg4WRqoU27PqARtZZUOdALZEKma7/YB1iU5G50sUg1Riutoc7odWtuRCcbR1A96CkbmH0uYX1K1F54zygApGgt+0aKXgzV6iv/jBv6pEHbzloBDZsF2DXb2/UArht5+vHDFEDylPhYWmkbLBC8RqhS1Bvy6/Q8ZqU4n0G/M7xxXo8NroAMa/EKZsZhqAqbTQm/AqFe5o6Uv71/17LfFY5nubCroQrHVOtt/l9Ubvru8wzrYflTFiIvs9Eq8oTwErj/PKcXyahmda0qghdd13Nm3uvSlgXyhapXceYQ9pGeFNswSdfoKyNKUs/aj22GZtH2pPBeRViJaHuGonRwIDAQABo4HqMIHnMB0GA1UdDgQWBBQTtM2w3vt7jTu73ST1/P/WgvkRhzCBtwYDVR0jBIGvMIGsgBQTtM2w3vt7jTu73ST1/P/WgvkRh6GBkKSBjTCBijEpMCcGA1UEAxMgZXpwcm94eS5wZXJkYW5hdW5pdmVyc2l0eS5lZHUubXkxCzAJBgNVBAYTAk1ZMRswGQYDVQQKExJQZXJkYW5hIFVuaXZlcnNpdHkxMzAxBgkqhkiG9w0BCQEWJGl0LWhlbHBkZXNrQHBlcmRhbmF1bml2ZXJzaXR5LmVkdS5teYIBATAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBQUAA4IBAQDrflJxAYup0vXn6cTM6N+TumHPwY7FHWcDpFxObL+uASNFmo5JQL0qZDoPPZ81IpV06o0uy+ANtulMHjXpqhxeEUrIJ3Opr8i2GaVnnhoxnynXhrXXl/zWgfOny0xj/eP5KLGVhFbkLwigyEgPBHx0HauBOL1ZCTzcfeK0O3b9vYN28ZUUPpBXP9eXWRO3mW/nMDEIoiWmsgAkWMNs13lGKOwXPndetVu2oB2dnSfNZvFHIoNsBXRTbNMyKL9utS/Q8xW5Fqb/uluyCtQbUSPjjYDciqdinRL5fGwXInwtPFrDO6j16P5k3+htHY7nuqciBWJ9+qXHNKHdNToKA1JG</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://ezproxy.perdanauniversity.edu.my/Shibboleth.sso/SAML2/POST" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://ezproxy.perdanauniversity.edu.my/Shibboleth.sso/SAML2/Artifact" index="2"/>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en-US">Perdana University</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en-US">Ezproxy@library</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en-US">https://ezproxy.perdanauniversity.edu.my</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="technical">
+    <md:GivenName>IT</md:GivenName>
+    <md:EmailAddress>it-helpdesk@perdanauniversity.edu.my</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor><md:EntityDescriptor entityID="https://puscobvle.perdanauniversity.edu.my/auth/saml2/sp/metadata.php">
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:1.1:protocol urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>
+MIID4zCCAsugAwIBAgIBADANBgkqhkiG9w0BAQsFADCBizEPMA0GA1UEAwwGbW9vZGxlMQswCQYDVQQGEwJBVTEUMBIGA1UEBwwLbW9vZGxldmlsbGUxIjAgBgkqhkiG9w0BCQEWE3N1cHBvcnRAcHVrdW51aS5jb20xDzANBgNVBAoMBm1vb2RsZTEPMA0GA1UECAwGbW9vZGxlMQ8wDQYDVQQLDAZtb29kbGUwHhcNMTkwNDI0MDYzMTEzWhcNMjkwNDIxMDYzMTEzWjCBizEPMA0GA1UEAwwGbW9vZGxlMQswCQYDVQQGEwJBVTEUMBIGA1UEBwwLbW9vZGxldmlsbGUxIjAgBgkqhkiG9w0BCQEWE3N1cHBvcnRAcHVrdW51aS5jb20xDzANBgNVBAoMBm1vb2RsZTEPMA0GA1UECAwGbW9vZGxlMQ8wDQYDVQQLDAZtb29kbGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC3N53KF2oFXTHdt1OE9hwilEXPUdmiP9Pn7x+Ck248aIIu387Jv95wHU7hrYmGKrJDid63drWsONXFhpR/klQBw+Jfze7pYFqilmeAUpLC6WY7fEtlhJ7iybQwrzDWePT+n6Py5yhUUes4clSdSMtu2nFlXnCHJ7TycxwqnxaGysjyAFuYa9lJfZzu4e5VSxonfbeHb1g3+Igulm3fGUv4Y9Kg8Qh90KA/C2dsEiStE4NiyVsSNK41Q+s7uPH/30EyLIutWK1WmBgZl/bzAGg1GicBQA6jefkTm01+7pnveDYhlq4OxQoP7Jmj4S3wfR0PbeSQqQPL3CKOA7klCnlnAgMBAAGjUDBOMB0GA1UdDgQWBBQ8zJ4iISuZOTDysj+LwvnooTkPdTAfBgNVHSMEGDAWgBQ8zJ4iISuZOTDysj+LwvnooTkPdTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBrmIY1rZMbqLsuSsSMU5z57EY8khspuFtlryn/TXHneMTT/TWtys1xXeG9J44pNFdx1FAD4j4bJiTrxmug5l4ytkUzcKRuo89/8qzQEmP3xtJg4SBg5u4Dk0tNz8OrevXPGrWQypaRO5B1Z9JvRVAuIaJZFK9y4zzn+DGtDU3jaQcpwnyCp7yNGbkp0R6n8GxoSd1RkTdN/GTkfS+l6BLJg2W9XkjggZb+mET4Sd4MUCHGWEPQJ+TmBFCmr4OPH23Q3wU/sjFdl3sWaaDmuD7zggp5pWvVl+fdYItW9s0N1OjtRM9nC21WB/05wojPkegdnP/gr6fuM/PTHZ1WKUxx
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>
+MIID4zCCAsugAwIBAgIBADANBgkqhkiG9w0BAQsFADCBizEPMA0GA1UEAwwGbW9vZGxlMQswCQYDVQQGEwJBVTEUMBIGA1UEBwwLbW9vZGxldmlsbGUxIjAgBgkqhkiG9w0BCQEWE3N1cHBvcnRAcHVrdW51aS5jb20xDzANBgNVBAoMBm1vb2RsZTEPMA0GA1UECAwGbW9vZGxlMQ8wDQYDVQQLDAZtb29kbGUwHhcNMTkwNDI0MDYzMTEzWhcNMjkwNDIxMDYzMTEzWjCBizEPMA0GA1UEAwwGbW9vZGxlMQswCQYDVQQGEwJBVTEUMBIGA1UEBwwLbW9vZGxldmlsbGUxIjAgBgkqhkiG9w0BCQEWE3N1cHBvcnRAcHVrdW51aS5jb20xDzANBgNVBAoMBm1vb2RsZTEPMA0GA1UECAwGbW9vZGxlMQ8wDQYDVQQLDAZtb29kbGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC3N53KF2oFXTHdt1OE9hwilEXPUdmiP9Pn7x+Ck248aIIu387Jv95wHU7hrYmGKrJDid63drWsONXFhpR/klQBw+Jfze7pYFqilmeAUpLC6WY7fEtlhJ7iybQwrzDWePT+n6Py5yhUUes4clSdSMtu2nFlXnCHJ7TycxwqnxaGysjyAFuYa9lJfZzu4e5VSxonfbeHb1g3+Igulm3fGUv4Y9Kg8Qh90KA/C2dsEiStE4NiyVsSNK41Q+s7uPH/30EyLIutWK1WmBgZl/bzAGg1GicBQA6jefkTm01+7pnveDYhlq4OxQoP7Jmj4S3wfR0PbeSQqQPL3CKOA7klCnlnAgMBAAGjUDBOMB0GA1UdDgQWBBQ8zJ4iISuZOTDysj+LwvnooTkPdTAfBgNVHSMEGDAWgBQ8zJ4iISuZOTDysj+LwvnooTkPdTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBrmIY1rZMbqLsuSsSMU5z57EY8khspuFtlryn/TXHneMTT/TWtys1xXeG9J44pNFdx1FAD4j4bJiTrxmug5l4ytkUzcKRuo89/8qzQEmP3xtJg4SBg5u4Dk0tNz8OrevXPGrWQypaRO5B1Z9JvRVAuIaJZFK9y4zzn+DGtDU3jaQcpwnyCp7yNGbkp0R6n8GxoSd1RkTdN/GTkfS+l6BLJg2W9XkjggZb+mET4Sd4MUCHGWEPQJ+TmBFCmr4OPH23Q3wU/sjFdl3sWaaDmuD7zggp5pWvVl+fdYItW9s0N1OjtRM9nC21WB/05wojPkegdnP/gr6fuM/PTHZ1WKUxx
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://puscobvle.perdanauniversity.edu.my/auth/saml2/sp/saml2-logout.php/puscobvle.perdanauniversity.edu.my"/>
+    <md:NameIDFormat>
+urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified
+</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://puscobvle.perdanauniversity.edu.my/auth/saml2/sp/saml2-acs.php/puscobvle.perdanauniversity.edu.my" index="0"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:1.0:profiles:browser-post" Location="https://puscobvle.perdanauniversity.edu.my/auth/saml2/sp/saml1-acs.php/puscobvle.perdanauniversity.edu.my" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://puscobvle.perdanauniversity.edu.my/auth/saml2/sp/saml2-acs.php/puscobvle.perdanauniversity.edu.my" index="2"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:1.0:profiles:artifact-01" Location="https://puscobvle.perdanauniversity.edu.my/auth/saml2/sp/saml1-acs.php/puscobvle.perdanauniversity.edu.my" index="3"/>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">PUSCOB</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">The PU-SCOB Virtual Learning Environment</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://puscobvle.perdanauniversity.edu.my</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="technical">
+    <md:GivenName>IT</md:GivenName>
+    <md:SurName>Department</md:SurName>
+    <md:EmailAddress>it-helpdesk@perdanauniversity.edu.my</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor><md:EntityDescriptor entityID="https://pusdsvle.perdanauniversity.edu.my/auth/saml2/sp/metadata.php">
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:1.1:protocol urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>
+MIIEWzCCA0OgAwIBAgIBADANBgkqhkiG9w0BAQsFADCBxzEPMA0GA1UEAwwGbW9vZGxlMQswCQYDVQQGEwJBVTEUMBIGA1UEBwwLbW9vZGxldmlsbGUxMDAuBgkqhkiG9w0BCQEWIXp1bG1hamRpQHBlcmRhbmF1bml2ZXJzaXR5LmVkdS5teTE9MDsGA1UECgw0U2Nob29sIG9mIERhdGEgU2NpZW5jZXMgVmlydHVhbCBMZWFybmluZyBFbnZpcm9ubWVudDEPMA0GA1UECAwGbW9vZGxlMQ8wDQYDVQQLDAZtb29kbGUwHhcNMTkwMzI4MTAwNTE2WhcNMjkwMzI1MTAwNTE2WjCBxzEPMA0GA1UEAwwGbW9vZGxlMQswCQYDVQQGEwJBVTEUMBIGA1UEBwwLbW9vZGxldmlsbGUxMDAuBgkqhkiG9w0BCQEWIXp1bG1hamRpQHBlcmRhbmF1bml2ZXJzaXR5LmVkdS5teTE9MDsGA1UECgw0U2Nob29sIG9mIERhdGEgU2NpZW5jZXMgVmlydHVhbCBMZWFybmluZyBFbnZpcm9ubWVudDEPMA0GA1UECAwGbW9vZGxlMQ8wDQYDVQQLDAZtb29kbGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDk9gzQB6bxdJb8Og9PjAx5wzqCgm/yB9ScH4bNSrytV3o/+dAAkEt6q4phExnyv3JXpeNvk4NbcoRNpx5dRyO6qDUkwsZuavmsJT056aIslVT5wL0DIStnNqxZj2x+ju4GdYX4vsxhYzOK8MgmIhE3fUl/crYJPwSpuGNq40Slh7X0fF0vRNsT7qmCAzDsaY/cEU4ckwRjUUdpg/ybSDCiykalQzjXz7RVIFoAxrXGL7V35lB+Gy42fb++TEpcLhmHiSKW2ReiNS2mBPLHFOdvmpbZQfJ7qSUiW7wLDWFmptKH0iKkH0qL/63wpFc8hkJLdz3x9ieaCqoPOBrCdKZNAgMBAAGjUDBOMB0GA1UdDgQWBBSugagcc10VTCjhjYED4or7VvH2IDAfBgNVHSMEGDAWgBSugagcc10VTCjhjYED4or7VvH2IDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQA7Ib3F5OZuBfvf7kilxB+PAuEh/hHM3zaWMArPuOPdsFi52NBnJkBnt0lpp+LpmRzLtQ+8rbCVxbgHCuUKDAaT0Z4dUtyCf9F2kdjMjFaGqzrxIAb2cC1/fjtGFnTbok3kxJPb+vCUduOfLT0Yv+cThBS8+Ud0Y+7VzBXJSIeHvTIMKQZn7RxSAr7u6iWAmAN4/vnAftu1HFiDvTIR6v17TUvztjBdxAE3F9ZtssPJk4z9kvApY6A/TgZptjlUWHka8SYmhrZwXddgH6St1rKhBzWZmwwocchk2yB/HqOer2adlE24SptnegjH4Xp8Jq5Avuw9gt98opV7r78/7dX0
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>
+MIIEWzCCA0OgAwIBAgIBADANBgkqhkiG9w0BAQsFADCBxzEPMA0GA1UEAwwGbW9vZGxlMQswCQYDVQQGEwJBVTEUMBIGA1UEBwwLbW9vZGxldmlsbGUxMDAuBgkqhkiG9w0BCQEWIXp1bG1hamRpQHBlcmRhbmF1bml2ZXJzaXR5LmVkdS5teTE9MDsGA1UECgw0U2Nob29sIG9mIERhdGEgU2NpZW5jZXMgVmlydHVhbCBMZWFybmluZyBFbnZpcm9ubWVudDEPMA0GA1UECAwGbW9vZGxlMQ8wDQYDVQQLDAZtb29kbGUwHhcNMTkwMzI4MTAwNTE2WhcNMjkwMzI1MTAwNTE2WjCBxzEPMA0GA1UEAwwGbW9vZGxlMQswCQYDVQQGEwJBVTEUMBIGA1UEBwwLbW9vZGxldmlsbGUxMDAuBgkqhkiG9w0BCQEWIXp1bG1hamRpQHBlcmRhbmF1bml2ZXJzaXR5LmVkdS5teTE9MDsGA1UECgw0U2Nob29sIG9mIERhdGEgU2NpZW5jZXMgVmlydHVhbCBMZWFybmluZyBFbnZpcm9ubWVudDEPMA0GA1UECAwGbW9vZGxlMQ8wDQYDVQQLDAZtb29kbGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDk9gzQB6bxdJb8Og9PjAx5wzqCgm/yB9ScH4bNSrytV3o/+dAAkEt6q4phExnyv3JXpeNvk4NbcoRNpx5dRyO6qDUkwsZuavmsJT056aIslVT5wL0DIStnNqxZj2x+ju4GdYX4vsxhYzOK8MgmIhE3fUl/crYJPwSpuGNq40Slh7X0fF0vRNsT7qmCAzDsaY/cEU4ckwRjUUdpg/ybSDCiykalQzjXz7RVIFoAxrXGL7V35lB+Gy42fb++TEpcLhmHiSKW2ReiNS2mBPLHFOdvmpbZQfJ7qSUiW7wLDWFmptKH0iKkH0qL/63wpFc8hkJLdz3x9ieaCqoPOBrCdKZNAgMBAAGjUDBOMB0GA1UdDgQWBBSugagcc10VTCjhjYED4or7VvH2IDAfBgNVHSMEGDAWgBSugagcc10VTCjhjYED4or7VvH2IDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQA7Ib3F5OZuBfvf7kilxB+PAuEh/hHM3zaWMArPuOPdsFi52NBnJkBnt0lpp+LpmRzLtQ+8rbCVxbgHCuUKDAaT0Z4dUtyCf9F2kdjMjFaGqzrxIAb2cC1/fjtGFnTbok3kxJPb+vCUduOfLT0Yv+cThBS8+Ud0Y+7VzBXJSIeHvTIMKQZn7RxSAr7u6iWAmAN4/vnAftu1HFiDvTIR6v17TUvztjBdxAE3F9ZtssPJk4z9kvApY6A/TgZptjlUWHka8SYmhrZwXddgH6St1rKhBzWZmwwocchk2yB/HqOer2adlE24SptnegjH4Xp8Jq5Avuw9gt98opV7r78/7dX0
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://pusdsvle.perdanauniversity.edu.my/auth/saml2/sp/saml2-logout.php/pusdsvle.perdanauniversity.edu.my"/>
+    <md:NameIDFormat>
+urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified
+</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://pusdsvle.perdanauniversity.edu.my/auth/saml2/sp/saml2-acs.php/pusdsvle.perdanauniversity.edu.my" index="0"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:1.0:profiles:browser-post" Location="https://pusdsvle.perdanauniversity.edu.my/auth/saml2/sp/saml1-acs.php/pusdsvle.perdanauniversity.edu.my" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://pusdsvle.perdanauniversity.edu.my/auth/saml2/sp/saml2-acs.php/pusdsvle.perdanauniversity.edu.my" index="2"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:1.0:profiles:artifact-01" Location="https://pusdsvle.perdanauniversity.edu.my/auth/saml2/sp/saml1-acs.php/pusdsvle.perdanauniversity.edu.my" index="3"/>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">
+School of Data Sciences Virtual Learning Environment
+</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">
+School of Data Sciences Virtual Learning Environment
+</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://pusdsvle.perdanauniversity.edu.my</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="technical">
+    <md:GivenName>IT</md:GivenName>
+    <md:SurName>Department</md:SurName>
+    <md:EmailAddress>it-helpdesk@perdanauniversity.edu.my</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor></md:EntitiesDescriptor>

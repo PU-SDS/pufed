@@ -1,0 +1,12 @@
+- load:
+    - /metadata/activ-metadata.xml
+    - /metadata/ezproxy-metadata.xml
+    - /metadata/puscobvle-metadata.xml
+    - /metadata/pusdsvle-metadata.xml
+- select:
+- xslt:
+    stylesheet: tidy.xsl
+- sign:
+    key: /metadata/pufed.key
+    cert: /metadata/pufed.pem
+- publish: /metadata/pufed.xml
