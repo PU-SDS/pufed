@@ -1,13 +1,13 @@
 - load:
-    - /metadata/activ-metadata.xml
-    - /metadata/ezproxy-metadata.xml
-    - /metadata/puscobvle-metadata.xml
-    - /metadata/pusdsvle-metadata.xml
+    - /github/workspace/activ-metadata.xml
+    - /github/workspace/ezproxy-metadata.xml
+    - /github/workspace/puscobvle-metadata.xml
+    - /github/workspace/pusdsvle-metadata.xml
     - https://sifulan.my/metadata/sifulan-full-metadata.xml
 - select:
 - xslt:
     stylesheet: tidy.xsl
 - sign:
-    key: /metadata/pufed.key
-    cert: /metadata/pufed.pem
-- publish: /metadata/pufed.xml
+    key: /github/workspace/pufed.key
+    cert: /github/workspace/pufed.pem
+- publish: /github/workspace/pufed.xml

@@ -19,7 +19,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      
       # Download pufed.key from GH Secrets
       - name: Download pufed.key
         env:
@@ -27,14 +26,10 @@ jobs:
         run:
           echo $PUFED_KEY > pufed.key
       - name: Sign the metadata
-        container:
-          image: docker.sunet.se/pyff:stable
-          volumes:
-          - /home/runner/work/pufed/pufed:/metadata
-          steps:
-            - name: Sign the metadata
-              run:
-                pyff /metadata/pufed.pyff
+        uses: docker.sunet.se/pyff:stable
+        with:
+          entrypoint: pyff
+          args: /github/workspace/pufed.pyff
       - name: Commit and publish
         run: |
           git config --global user.name 'Muhammad Farhan Sjaugi'
