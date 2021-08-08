@@ -33,9 +33,4 @@ jobs:
           entrypoint: pyff
           args: /github/workspace/pufed.pyff
       - name: Commit and publish
-        run: |
-          git config --global user.name 'Muhammad Farhan Sjaugi'
-          git config --global user.email 'farhan@perdanauniversity.edu.my'
-          git add ${GITHUB_WORKSPACE}/pufed.xml
-          git commit -m "PUFED Metadata Update"
-          git push --force
+        uses: zwaldowski/git-commit-action@v1
