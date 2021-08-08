@@ -27,10 +27,17 @@ jobs:
       
       # Download pufed.key from GH Secrets
       - name: Download pufed.key
-        run: |
-          echo $PUFED_FILE >> pufed.key
-          cat pufed.key
-          ls -l
-        shell: bash
         env:
-          PUFED_FILE : ${{secrets.PUFED_KEY}}
+          PUFED_KEY : ${{secrets.PUFED_KEY}}
+        run:
+          echo $PUFED_KEY > pufed.key
+      
+      # Install PyFF
+      - name: Install PyFF
+        run:
+          pip install pyff
+          
+      # Run PyFF
+      - name: Sign the metadata
+        run:
+          pyff pufed.pyff
