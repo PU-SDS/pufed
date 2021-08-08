@@ -24,7 +24,7 @@ jobs:
         env:
           PUFED_KEY : ${{secrets.PUFED_KEY}}
         run:
-          echo $PUFED_KEY > pufed.key
+          echo "$PUFED_KEY" | base64 --decode > pufed.key
       - name: Check pufed.key
         run:
           cat pufed.key
