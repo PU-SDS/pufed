@@ -35,9 +35,18 @@ jobs:
       # Install PyFF
       - name: Install PyFF
         run:
-          pip install pyff
+          pip install pyff pyyaml>=5.4
           
       # Run PyFF
       - name: Sign the metadata
         run:
           pyff pufed.pyff
+      
+      # Commit and publish
+      - name: Commit and publish
+        run: |
+          git config --global user.name 'Muhammad Farhan Sjaugi'
+          git config --global user.email 'farhan@perdanauniversity.edu.my'
+          git add ${GITHUB_WORKSPACE}/pufed.xml
+          git commit -m "PUFED Metadata Update"
+          git push
