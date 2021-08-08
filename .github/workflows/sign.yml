@@ -26,15 +26,12 @@ jobs:
           PUFED_KEY : ${{secrets.PUFED_KEY}}
         run:
           echo $PUFED_KEY > pufed.key
-      - name: Get current folder
-        run:
-          pwd
   sign-the-metadata-files:
     runs-on: ubuntu-latest
     container:
       image: docker.sunet.se/pyff:stable
       volumes:
-      - /github/home:/metadata
+      - /home/runner/work/pufed/pufed:/metadata
     steps:
       - name: Sign the metadata
         run:
