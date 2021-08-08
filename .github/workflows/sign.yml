@@ -26,7 +26,7 @@ jobs:
         run:
           echo $PUFED_KEY > pufed.key
       - name: Sign the metadata
-        uses: docker.sunet.se/pyff:stable
+        uses: docker://docker.sunet.se/pyff:stable
         with:
           entrypoint: pyff
           args: /github/workspace/pufed.pyff
