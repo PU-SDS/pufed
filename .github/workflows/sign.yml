@@ -24,14 +24,15 @@ jobs:
       - name: Download pufed.key
         env:
           PUFED_KEY : ${{secrets.PUFED_KEY}}
-        run:
+        run: |
           echo $PUFED_KEY > pufed.key
+          echo $PWD
   sign-the-metadata-files:
     runs-on: ubuntu-latest
     container:
       image: docker.sunet.se/pyff:stable
       volumes:
-      - $PWD:/metadata
+      - /github/home:/metadata
     steps:
       - name: Sign the metadata
         run:
