@@ -25,9 +25,6 @@ jobs:
           PUFED_KEY : ${{secrets.PUFED_KEY}}
         run:
           echo "$PUFED_KEY" | base64 --decode > pufed.key
-      - name: Check pufed.key
-        run:
-          cat pufed.key
       - name: Sign the metadata
         uses: docker://docker.sunet.se/pyff:stable
         with:
