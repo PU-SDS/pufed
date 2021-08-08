@@ -35,7 +35,7 @@ jobs:
       # Install PyFF
       - name: Install PyFF
         run:
-          pip install pyff pyyaml>=5.4
+          pip3 install pyff pyyaml>=5.4
           
       # Run PyFF
       - name: Sign the metadata
