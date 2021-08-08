@@ -3,6 +3,7 @@
     - /metadata/ezproxy-metadata.xml
     - /metadata/puscobvle-metadata.xml
     - /metadata/pusdsvle-metadata.xml
+    - https://sifulan.my/metadata/sifulan-full-metadata.xml
 - select:
 - xslt:
     stylesheet: tidy.xsl

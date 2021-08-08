@@ -1,7 +1,11 @@
 <?xml version="1.0"?>
-<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="_c31f3f78398657ca45f4c1e0420b6ca980ed3c0d" entityID="https://activ.perdanauniversity.edu.my/shibboleth">
-
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" ID="_c31f3f78398657ca45f4c1e0420b6ca980ed3c0d" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" entityID="https://activ.perdanauniversity.edu.my/shibboleth">
   <md:Extensions xmlns:alg="urn:oasis:names:tc:SAML:metadata:algsupport">
+    <mdattr:EntityAttributes>
+      <saml:Attribute Name="http://macedir.org/entity-category" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+        <saml:AttributeValue>https://perdanauniversity.edu.my/category/intranet</saml:AttributeValue>
+      </saml:Attribute>
+    </mdattr:EntityAttributes>
     <alg:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/>
     <alg:DigestMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#sha384"/>
     <alg:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
