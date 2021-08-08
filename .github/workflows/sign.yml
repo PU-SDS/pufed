@@ -25,8 +25,12 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       
-      # Runs a single command using the runners shell
-      - name: list files
-        with:
-          pufed_key: ${{ secrets.PUFED_KEY }}
-        run: ls -l
+      # Download pufed.key from GH Secrets
+      - name: Download pufed.key
+        run: |
+          echo $PUFED_FILE >> pufed.key
+          cat pufed.key
+          ls -l
+        shell: bash
+        env:
+          PUFED_FILE : ${{secrets.PUFED_KEY}}
