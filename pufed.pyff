@@ -4,6 +4,8 @@
     - /github/workspace/puscobvle-metadata.xml
     - /github/workspace/pusdsvle-metadata.xml
     - /github/workspace/eduvpn-metadata.xml
+    - /github/workspace/sso-metadata.xml
+    - /github/workspace/sso-devel-metadata.xml
     #- https://sifulan.my/metadata/sifulan-full-metadata.xml
 - select:
 - xslt:
