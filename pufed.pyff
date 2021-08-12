@@ -4,7 +4,7 @@
     - /github/workspace/puscobvle-metadata.xml
     - /github/workspace/pusdsvle-metadata.xml
     - /github/workspace/eduvpn-metadata.xml
-    - https://sifulan.my/metadata/sifulan-full-metadata.xml
+    #- https://sifulan.my/metadata/sifulan-full-metadata.xml
 - select:
 - xslt:
     stylesheet: tidy.xsl
