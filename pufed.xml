@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<md:EntitiesDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:mdrpi="urn:oasis:names:tc:SAML:metadata:rpi" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xrd="http://docs.oasis-open.org/ns/xri/xrd-1.0" xmlns:pyff="http://pyff.io/NS" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ser="http://eidas.europa.eu/metadata/servicelist" xmlns:eidas="http://eidas.europa.eu/saml-extensions" Name="/github/workspace/pufed"><ds:Signature><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#WithComments"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>o2OcrePQUpQ6JgzPt8aIOkxosQvRYxAg1HDBtuPCZd8=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>TnOMae9eutOaUFyeReARTxVqWWAkTUrEBm1ZOmkjqoRST70vZNRDiHOrVvOIt1hONwrib+Buf/uH3xcO3vO3I4oWH9pFH5GT8TYD8lRh3MYgfYkKanLnLBquucotnnpIMGcKRUPrf30j24Ef/9xd7CIXqr7YktBy2TIDmuOfwbRzz5zKhkx4sLotH+XoFcyvBg2t2uH7Ep6TiKfK/5Ozj3ZLu1o66JvuMDABdEGoKS+IyopeWEGsftM10IhQCZqQVcyeQj7Ud4KDtFUGnRy6/PhT+dmteHWwGMAN0F77/OuUDmA9RMCQ2UJpXzVEeEZ3EO2QyQF4AaGC8Uk7GHwwLQJheXKASFuRTVlvyBgLC0glPzzxXKTQTEvRN+Mi220v3YtJk/fuUSYzF6chlp9zTj2yj/aAnm9SR3H0w7OCMQrhmUTxNWiZD/CxIGYHYz2bvBeruP0yEMwUyYq/1QfAKzRBGAQ9meQReXYQQhdjhCmxw2ptgFILucR6Z5E41nIq</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEcjCCAtoCCQDnFhoAhWOF3DANBgkqhkiG9w0BAQsFADB7MQswCQYDVQQGEwJN
+<md:EntitiesDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:mdrpi="urn:oasis:names:tc:SAML:metadata:rpi" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xrd="http://docs.oasis-open.org/ns/xri/xrd-1.0" xmlns:pyff="http://pyff.io/NS" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ser="http://eidas.europa.eu/metadata/servicelist" xmlns:eidas="http://eidas.europa.eu/saml-extensions" Name="/github/workspace/pufed"><ds:Signature><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#WithComments"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>Yi2CaJhuATynFe50KqarPm/SRy6jl+7B/Fhd0Gn7RJs=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>dx4WxoIGzOYvHKZCuyL3pTbblHHdZPuXtmnr05TiuwlUN/uwgF+TBshhhxylvF6qmK4dpYYu2DKlZzFDvVorIKMmqIoB8yzzWPAgROrYcLAbM9Rq2ifp13iK4+Apc7uH1tJxAwrIBoEhtx9DSM8zDnUL4m8YG4nLLmUDaxXgbelTyN4fErGNYByX9K/FruuzMFIHYHYrHT0xTcWSFtQlZ7PIet9adjiWQYPPYRY8a5g6/sz0CdXbtCKW391KkPWg8mJ9KveUxNwL8BZNUnHi//nsrnOG7634QEK1HGy/qWSq2LTSGkQ/zUezCEvnit9HD7b/hTKKzBI05EXaHiMeP41A73K2IiPpQD85quPb73uQilH0lZekzdULjEAQZGPi/OzKixI8ud79aswhTBB6yl4aTOmHJ0R0gYbLTOdOqJHJf+J28uJDHgOylQ2ali0B02SeRMu6O6utvSqS4pXdXp/qEsYR+Xlql2U3hcqAFS91qVoxOfMJYQ6sVmESz/i8</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEcjCCAtoCCQDnFhoAhWOF3DANBgkqhkiG9w0BAQsFADB7MQswCQYDVQQGEwJN
 WTEbMBkGA1UECgwSUGVyZGFuYSBVbml2ZXJzaXR5MRowGAYDVQQDDBFQVSBTU08g
 RmVkZXJhdGlvbjEzMDEGCSqGSIb3DQEJARYkaXQtaGVscGRlc2tAcGVyZGFuYXVu
 aXZlcnNpdHkuZWR1Lm15MB4XDTIxMDgwNzAyMjMyNFoXDTMxMDgwNzAyMjMyNFow
@@ -281,22 +281,8 @@ School of Data Sciences Virtual Learning Environment
         <saml:AttributeValue>https://perdanauniversity.edu.my/category/intranet</saml:AttributeValue>
       </saml:Attribute>
     </mdattr:EntityAttributes>
-    <alg:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/>
-    <alg:DigestMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#sha384"/>
     <alg:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-    <alg:DigestMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#sha224"/>
-    <alg:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
-    <alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha512"/>
-    <alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha384"/>
-    <alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha256"/>
-    <alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha224"/>
-    <alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/>
-    <alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha384"/>
     <alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
-    <alg:SigningMethod Algorithm="http://www.w3.org/2009/xmldsig11#dsa-sha256"/>
-    <alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha1"/>
-    <alg:SigningMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
-    <alg:SigningMethod Algorithm="http://www.w3.org/2000/09/xmldsig#dsa-sha1"/>
   </md:Extensions>
 
   <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
@@ -366,15 +352,7 @@ tx9AtoaYwxA=
 </ds:X509Certificate>
         </ds:X509Data>
       </ds:KeyInfo>
-      <md:EncryptionMethod Algorithm="http://www.w3.org/2009/xmlenc11#aes128-gcm"/>
-      <md:EncryptionMethod Algorithm="http://www.w3.org/2009/xmlenc11#aes192-gcm"/>
       <md:EncryptionMethod Algorithm="http://www.w3.org/2009/xmlenc11#aes256-gcm"/>
-      <md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-cbc"/>
-      <md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes192-cbc"/>
-      <md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc"/>
-      <md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/>
-      <md:EncryptionMethod Algorithm="http://www.w3.org/2009/xmlenc11#rsa-oaep"/>
-      <md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p"/>
     </md:KeyDescriptor>
     <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://eduvpn.perdanauniversity.edu.my/Shibboleth.sso/Artifact/SOAP" index="1"/>
     <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://eduvpn.perdanauniversity.edu.my/Shibboleth.sso/SLO/SOAP"/>
@@ -386,8 +364,8 @@ tx9AtoaYwxA=
     <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://eduvpn.perdanauniversity.edu.my/Shibboleth.sso/SAML2/Artifact" index="3"/>
     <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:PAOS" Location="https://eduvpn.perdanauniversity.edu.my/Shibboleth.sso/SAML2/ECP" index="4"/>
     <md:AttributeConsumingService index="0">
-      <md:ServiceName xml:lang="en">eduVPN</md:ServiceName>
-      <md:ServiceDescription xml:lang="en">eduVPN Portal</md:ServiceDescription>
+      <md:ServiceName xml:lang="en">eduVPN Service</md:ServiceName>
+      <md:ServiceDescription xml:lang="en">eduVPN Service Portal</md:ServiceDescription>
       <md:RequestedAttribute FriendlyName="givenName" Name="urn:oid:2.5.4.42" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
       <md:RequestedAttribute FriendlyName="surname" Name="urn:oid:2.5.4.4" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
       <md:RequestedAttribute FriendlyName="mail" Name="urn:oid:0.9.2342.19200300.100.1.3" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
@@ -397,5 +375,14 @@ tx9AtoaYwxA=
       <md:RequestedAttribute FriendlyName="persistentId" Name="urn:oid:1.2.3.4.5.6.7.8.9.11" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
     </md:AttributeConsumingService>
   </md:SPSSODescriptor>
-
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">Perdana University</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">eduVPN Service Portal</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://eduvpn.perdanauniversity.edu.my</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="technical">
+    <md:GivenName>IT</md:GivenName>
+    <md:SurName>Department</md:SurName>
+    <md:EmailAddress>it-helpdesk@perdanauniversity.edu.my</md:EmailAddress>
+  </md:ContactPerson>
 </md:EntityDescriptor></md:EntitiesDescriptor>
