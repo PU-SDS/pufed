@@ -16,6 +16,7 @@ MIID4zCCAsugAwIBAgIBADANBgkqhkiG9w0BAQsFADCBizEPMA0GA1UEAwwGbW9vZGxlMQswCQYDVQQG
 </ds:X509Certificate>
         </ds:X509Data>
       </ds:KeyInfo>
+      <md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-cbc"/>
     </md:KeyDescriptor>
     <md:KeyDescriptor use="encryption">
       <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
@@ -25,6 +26,7 @@ MIID4zCCAsugAwIBAgIBADANBgkqhkiG9w0BAQsFADCBizEPMA0GA1UEAwwGbW9vZGxlMQswCQYDVQQG
 </ds:X509Certificate>
         </ds:X509Data>
       </ds:KeyInfo>
+      <md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-cbc"/>
     </md:KeyDescriptor>
     <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://puscobvle.perdanauniversity.edu.my/auth/saml2/sp/saml2-logout.php/puscobvle.perdanauniversity.edu.my"/>
     <md:NameIDFormat>
