@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<md:EntitiesDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:mdrpi="urn:oasis:names:tc:SAML:metadata:rpi" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xrd="http://docs.oasis-open.org/ns/xri/xrd-1.0" xmlns:pyff="http://pyff.io/NS" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ser="http://eidas.europa.eu/metadata/servicelist" xmlns:eidas="http://eidas.europa.eu/saml-extensions" Name="/github/workspace/pufed"><ds:Signature><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#WithComments"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>LwwtSIiqLoSViY6QlVdnXZMdbnN2Hr8+C2RyaMMiefA=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>3CWu5r4k6xeiG8j4ZL11rXcMu9n6zg1xpO7jTymX9qv+HlALTBwgC8iiIMz7cBaWikeYs3WyItxLFQnyzz8SrWNAXd6MsxjMcfY5V5LnzOHJpT/oiMMPSvACEaS1RBGKPDKgaDvGYhDDYVQpvLBeSLvMACGDVD1g8b67p3pBmQpo+NFNzwRijNQPunpVWVlWkOvpuAwrfMFVl+L14dgAeUs2CpvaqY9oHBAEoEpWAIM+q5L4jAmCFr7mTGki407JeYslLAN9z/Q9kZw4djrs+rXBaH5clyd6FLrckijna86SdkKdV7C6KDBY/deOcrTcNT1nPYQVGOEGMCX4KnkNkRdkUiDWjAhFhQyhCL0hg1CAH1sZHQdOetJHe7vCijUQ6vPtivVxzqPXI4nSrhC0pfKmqh9IHQ3YJ87OtoCbFw58fdr8fsTMZUYo50NIjNpEq1BTT1zfSLq7KwUYmhhVO8iLFJWA9T4zdXQXQJ0bF4e9xZrpPCq6dR5Xc6Cb5xIY</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEcjCCAtoCCQDnFhoAhWOF3DANBgkqhkiG9w0BAQsFADB7MQswCQYDVQQGEwJN
+<md:EntitiesDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:mdrpi="urn:oasis:names:tc:SAML:metadata:rpi" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xrd="http://docs.oasis-open.org/ns/xri/xrd-1.0" xmlns:pyff="http://pyff.io/NS" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ser="http://eidas.europa.eu/metadata/servicelist" xmlns:eidas="http://eidas.europa.eu/saml-extensions" Name="/github/workspace/pufed"><ds:Signature><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#WithComments"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>5WH3FhKgOb6W+8ADTGzY/QeC5huBRO3WDQKWp2fZqXI=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>tDigOkvK8g9JVDA8Gh8IEKhfNi2pcb1Dx5DtdoFj+C4bNJnVc1lhWO0Vb7oo0/ur7BvQBhr5BJ5fzpPtOWTJt1DNSb5Vdw8AAQg9OtKXw2MWb96MYgtQNc7IS9lM6FNvMIqTpY0Wa0wrK6GJgL9KQznp0FdoUSvZ26U2EZPX5f6aZs3XyhT2ZhMimlRvadN2W2nKZb2RBiuM9ZM9NdF+K0wkrJUEzxjixxQPS5Z711xYA1XDyWKQRO2bMx0llkqDTMRFlckOjvkMhneH22Hg70G9Lj+9a2RPjkcV3bUY0/LjlUImPtwjQwt25x23N5dAJJ3HHNkLCYu//nE5blBM3sLJa1YSRB/qyMuo+9hWMeVX3P9yUlmQo9tqBw0IFyn3dAFomwwCaI8IHZKPBsWTP7ufWEOqmfzpWETTKd99l5cXGkBgN3NlrZQCqGZINQQH+FR1tBF+QnL58MiTX9WGOewy3sHa5OXdmewOpd1noOFSLAWXeMhFk0TVw+di8tfj</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEcjCCAtoCCQDnFhoAhWOF3DANBgkqhkiG9w0BAQsFADB7MQswCQYDVQQGEwJN
 WTEbMBkGA1UECgwSUGVyZGFuYSBVbml2ZXJzaXR5MRowGAYDVQQDDBFQVSBTU08g
 RmVkZXJhdGlvbjEzMDEGCSqGSIb3DQEJARYkaXQtaGVscGRlc2tAcGVyZGFuYXVu
 aXZlcnNpdHkuZWR1Lm15MB4XDTIxMDgwNzAyMjMyNFoXDTMxMDgwNzAyMjMyNFow
@@ -214,6 +214,58 @@ urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified
     <md:OrganizationName xml:lang="en">PUSCOB</md:OrganizationName>
     <md:OrganizationDisplayName xml:lang="en">The PU-SCOB Virtual Learning Environment</md:OrganizationDisplayName>
     <md:OrganizationURL xml:lang="en">https://puscobvle.perdanauniversity.edu.my</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="technical">
+    <md:GivenName>IT</md:GivenName>
+    <md:SurName>Department</md:SurName>
+    <md:EmailAddress>it-helpdesk@perdanauniversity.edu.my</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor><md:EntityDescriptor entityID="https://pusdsvle.perdanauniversity.edu.my/auth/saml2/sp/metadata.php">
+  <md:Extensions>
+    <mdattr:EntityAttributes>
+      <saml:Attribute Name="http://macedir.org/entity-category" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+        <saml:AttributeValue>https://perdanauniversity.edu.my/category/intranet</saml:AttributeValue>
+      </saml:Attribute>
+    </mdattr:EntityAttributes>
+  </md:Extensions>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:1.1:protocol urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>
+MIIEWzCCA0OgAwIBAgIBADANBgkqhkiG9w0BAQsFADCBxzEPMA0GA1UEAwwGbW9vZGxlMQswCQYDVQQGEwJBVTEUMBIGA1UEBwwLbW9vZGxldmlsbGUxMDAuBgkqhkiG9w0BCQEWIXp1bG1hamRpQHBlcmRhbmF1bml2ZXJzaXR5LmVkdS5teTE9MDsGA1UECgw0U2Nob29sIG9mIERhdGEgU2NpZW5jZXMgVmlydHVhbCBMZWFybmluZyBFbnZpcm9ubWVudDEPMA0GA1UECAwGbW9vZGxlMQ8wDQYDVQQLDAZtb29kbGUwHhcNMTkwMzI4MTAwNTE2WhcNMjkwMzI1MTAwNTE2WjCBxzEPMA0GA1UEAwwGbW9vZGxlMQswCQYDVQQGEwJBVTEUMBIGA1UEBwwLbW9vZGxldmlsbGUxMDAuBgkqhkiG9w0BCQEWIXp1bG1hamRpQHBlcmRhbmF1bml2ZXJzaXR5LmVkdS5teTE9MDsGA1UECgw0U2Nob29sIG9mIERhdGEgU2NpZW5jZXMgVmlydHVhbCBMZWFybmluZyBFbnZpcm9ubWVudDEPMA0GA1UECAwGbW9vZGxlMQ8wDQYDVQQLDAZtb29kbGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDk9gzQB6bxdJb8Og9PjAx5wzqCgm/yB9ScH4bNSrytV3o/+dAAkEt6q4phExnyv3JXpeNvk4NbcoRNpx5dRyO6qDUkwsZuavmsJT056aIslVT5wL0DIStnNqxZj2x+ju4GdYX4vsxhYzOK8MgmIhE3fUl/crYJPwSpuGNq40Slh7X0fF0vRNsT7qmCAzDsaY/cEU4ckwRjUUdpg/ybSDCiykalQzjXz7RVIFoAxrXGL7V35lB+Gy42fb++TEpcLhmHiSKW2ReiNS2mBPLHFOdvmpbZQfJ7qSUiW7wLDWFmptKH0iKkH0qL/63wpFc8hkJLdz3x9ieaCqoPOBrCdKZNAgMBAAGjUDBOMB0GA1UdDgQWBBSugagcc10VTCjhjYED4or7VvH2IDAfBgNVHSMEGDAWgBSugagcc10VTCjhjYED4or7VvH2IDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQA7Ib3F5OZuBfvf7kilxB+PAuEh/hHM3zaWMArPuOPdsFi52NBnJkBnt0lpp+LpmRzLtQ+8rbCVxbgHCuUKDAaT0Z4dUtyCf9F2kdjMjFaGqzrxIAb2cC1/fjtGFnTbok3kxJPb+vCUduOfLT0Yv+cThBS8+Ud0Y+7VzBXJSIeHvTIMKQZn7RxSAr7u6iWAmAN4/vnAftu1HFiDvTIR6v17TUvztjBdxAE3F9ZtssPJk4z9kvApY6A/TgZptjlUWHka8SYmhrZwXddgH6St1rKhBzWZmwwocchk2yB/HqOer2adlE24SptnegjH4Xp8Jq5Avuw9gt98opV7r78/7dX0
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+      <md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-cbc"/>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>
+MIIEWzCCA0OgAwIBAgIBADANBgkqhkiG9w0BAQsFADCBxzEPMA0GA1UEAwwGbW9vZGxlMQswCQYDVQQGEwJBVTEUMBIGA1UEBwwLbW9vZGxldmlsbGUxMDAuBgkqhkiG9w0BCQEWIXp1bG1hamRpQHBlcmRhbmF1bml2ZXJzaXR5LmVkdS5teTE9MDsGA1UECgw0U2Nob29sIG9mIERhdGEgU2NpZW5jZXMgVmlydHVhbCBMZWFybmluZyBFbnZpcm9ubWVudDEPMA0GA1UECAwGbW9vZGxlMQ8wDQYDVQQLDAZtb29kbGUwHhcNMTkwMzI4MTAwNTE2WhcNMjkwMzI1MTAwNTE2WjCBxzEPMA0GA1UEAwwGbW9vZGxlMQswCQYDVQQGEwJBVTEUMBIGA1UEBwwLbW9vZGxldmlsbGUxMDAuBgkqhkiG9w0BCQEWIXp1bG1hamRpQHBlcmRhbmF1bml2ZXJzaXR5LmVkdS5teTE9MDsGA1UECgw0U2Nob29sIG9mIERhdGEgU2NpZW5jZXMgVmlydHVhbCBMZWFybmluZyBFbnZpcm9ubWVudDEPMA0GA1UECAwGbW9vZGxlMQ8wDQYDVQQLDAZtb29kbGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDk9gzQB6bxdJb8Og9PjAx5wzqCgm/yB9ScH4bNSrytV3o/+dAAkEt6q4phExnyv3JXpeNvk4NbcoRNpx5dRyO6qDUkwsZuavmsJT056aIslVT5wL0DIStnNqxZj2x+ju4GdYX4vsxhYzOK8MgmIhE3fUl/crYJPwSpuGNq40Slh7X0fF0vRNsT7qmCAzDsaY/cEU4ckwRjUUdpg/ybSDCiykalQzjXz7RVIFoAxrXGL7V35lB+Gy42fb++TEpcLhmHiSKW2ReiNS2mBPLHFOdvmpbZQfJ7qSUiW7wLDWFmptKH0iKkH0qL/63wpFc8hkJLdz3x9ieaCqoPOBrCdKZNAgMBAAGjUDBOMB0GA1UdDgQWBBSugagcc10VTCjhjYED4or7VvH2IDAfBgNVHSMEGDAWgBSugagcc10VTCjhjYED4or7VvH2IDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQA7Ib3F5OZuBfvf7kilxB+PAuEh/hHM3zaWMArPuOPdsFi52NBnJkBnt0lpp+LpmRzLtQ+8rbCVxbgHCuUKDAaT0Z4dUtyCf9F2kdjMjFaGqzrxIAb2cC1/fjtGFnTbok3kxJPb+vCUduOfLT0Yv+cThBS8+Ud0Y+7VzBXJSIeHvTIMKQZn7RxSAr7u6iWAmAN4/vnAftu1HFiDvTIR6v17TUvztjBdxAE3F9ZtssPJk4z9kvApY6A/TgZptjlUWHka8SYmhrZwXddgH6St1rKhBzWZmwwocchk2yB/HqOer2adlE24SptnegjH4Xp8Jq5Avuw9gt98opV7r78/7dX0
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+      <md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-cbc"/>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://pusdsvle.perdanauniversity.edu.my/auth/saml2/sp/saml2-logout.php/pusdsvle.perdanauniversity.edu.my"/>
+    <md:NameIDFormat>
+urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified
+</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://pusdsvle.perdanauniversity.edu.my/auth/saml2/sp/saml2-acs.php/pusdsvle.perdanauniversity.edu.my" index="0"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:1.0:profiles:browser-post" Location="https://pusdsvle.perdanauniversity.edu.my/auth/saml2/sp/saml1-acs.php/pusdsvle.perdanauniversity.edu.my" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://pusdsvle.perdanauniversity.edu.my/auth/saml2/sp/saml2-acs.php/pusdsvle.perdanauniversity.edu.my" index="2"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:1.0:profiles:artifact-01" Location="https://pusdsvle.perdanauniversity.edu.my/auth/saml2/sp/saml1-acs.php/pusdsvle.perdanauniversity.edu.my" index="3"/>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">
+School of Data Sciences Virtual Learning Environment
+</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">
+School of Data Sciences Virtual Learning Environment
+</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://pusdsvle.perdanauniversity.edu.my</md:OrganizationURL>
   </md:Organization>
   <md:ContactPerson contactType="technical">
     <md:GivenName>IT</md:GivenName>
