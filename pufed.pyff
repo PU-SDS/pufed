@@ -1,6 +1,6 @@
 - load:
     - /github/workspace/activ-metadata.xml
-    - /github/workspace/ezproxy-metadata.xml
+    #- /github/workspace/ezproxy-metadata.xml
     - /github/workspace/puscobvle-metadata.xml
     - /github/workspace/pusdsvle-metadata.xml
     - /github/workspace/eduvpn-metadata.xml

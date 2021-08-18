@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://sso.perdanauniversity.edu.my/saml2/idp/metadata.php" ID="pfx8509cbf7-6a25-6c3c-ff46-5004901c4737">
+  <ds:Signature>
+    <ds:SignedInfo>
+      <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+      <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+      <ds:Reference URI="#pfx8509cbf7-6a25-6c3c-ff46-5004901c4737">
+        <ds:Transforms>
+          <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+          <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+        </ds:Transforms>
+        <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+        <ds:DigestValue>pfHkN19IKOXBeUQI/Ke7Tio9PQsrR5sI3FR70jHfQbk=</ds:DigestValue>
+      </ds:Reference>
+    </ds:SignedInfo>
+    <ds:SignatureValue>n1UCmn8xE5hpldqWCbrkJsmRte0fXt5oq8K8vYILtjW9GAUKzu87s3ZDm/GHq/ifsyeShrLFi3mBWFs6TRgJHkaB7x2B5JIoAzR70j8MUxbdbPoNvkpy2EAy/18Xoo0Y/p0PgbKoEOJof9N5vL9rBS5FyRKJVGtd6h7lQYv43o8/pWlyfTNgnBvTtT7UIE7yB4y58vUAxzkkfKkzigEdQRscpm41SxlVdlY25IERsV2RvPSe+2qy9GDUIBoFQtTDo0UsvLXpYy0hQgODlqB9oTTffrQWLHjYPfaeKTZwgCCq1jN9woOiwXGu00g4jKIxv+U6qbT5gyqZ2lAsyF0Mtg==</ds:SignatureValue>
+    <ds:KeyInfo>
+      <ds:X509Data>
+        <ds:X509Certificate>MIIEITCCAwmgAwIBAgIJAOb3OJOpyWjyMA0GCSqGSIb3DQEBCwUAMIGmMQswCQYDVQQGEwJNWTEQMA4GA1UEBwwHU2VyZGFuZzEbMBkGA1UECgwSUGVyZGFuYSBVbml2ZXJzaXR5MQwwCgYDVQQLDANTU08xJTAjBgNVBAMMHHNzby5wZXJkYW5hdW5pdmVyc2l0eS5lZHUubXkxMzAxBgkqhkiG9w0BCQEWJGl0LWhlbHBkZXNrQHBlcmRhbmF1bml2ZXJzaXR5LmVkdS5teTAeFw0xODA0MTUwMzQ3MjZaFw0yODA0MTQwMzQ3MjZaMIGmMQswCQYDVQQGEwJNWTEQMA4GA1UEBwwHU2VyZGFuZzEbMBkGA1UECgwSUGVyZGFuYSBVbml2ZXJzaXR5MQwwCgYDVQQLDANTU08xJTAjBgNVBAMMHHNzby5wZXJkYW5hdW5pdmVyc2l0eS5lZHUubXkxMzAxBgkqhkiG9w0BCQEWJGl0LWhlbHBkZXNrQHBlcmRhbmF1bml2ZXJzaXR5LmVkdS5teTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOKDqlxNhCJxUpgsj43YNKrdnT0nmzHFw7FcANnxSlJCqF1MJhYjk8e8wxmjZW5CZk2OhrDg/qIz6A/q/W70y/Bhm7YNt6efL2J7t5vZECmd/K3Qwc8EC9K6DAHatk8OjfpFOfWqeup/l01KoYsRFTSCX5w9y4kD1cKwNIwKNN3AqLxFaHkoi6UN6LomdiFbWtJYZTs1PjVqDeCiIzRyfBjTvXDG+qV+i8RCfgNNMoxAVk3CsCrs1hRO5l4TlvpaGptido0We0bkr165wSvjfzyUuTmccweDINGOLxvzihlr1SV1SFHsHdY/ctjRsePxwzcv3g2e9dbhjoq2bJvlwtsCAwEAAaNQME4wHQYDVR0OBBYEFBfSbcbX59y3mGAHpxsP1DspxAeAMB8GA1UdIwQYMBaAFBfSbcbX59y3mGAHpxsP1DspxAeAMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAHmUodeBm1GSncXi8lGixZSB1X3HhWfrCyWvBzGJ2VmmxLXSjTcqj5ESdDgn0OlwavA5eLrwQZqphEM8pd6U9V6vOiaDUAValyHCskeNaWLTWfoReXqhhLZ2um6VtLvVKBTGl5fgO4T3zuxC6AojG/JH/jM5TTfGNnuTaezwma7BOcTDbLP3p1Kk3xZAh9Ro39Rdw/IjGMmQdZRG53X2lXg9aNH5H4ee4O6zglo30qGQtuC/3ZOfTd46wY1C/qz7cYev/eRgXfC9J+VIWVQueQcb4mh5NTHvX9Eb/sAsEUlxyRr3yQoKdRRh/UqCOQQDZVmRg3zOuJRHHNDROWnfC1k=</ds:X509Certificate>
+      </ds:X509Data>
+    </ds:KeyInfo>
+  </ds:Signature>
+  <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:Extensions>
+      <shibmd:Scope xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" regexp="false">perdanauniversity.edu.my</shibmd:Scope>
+      <mdui:UIInfo xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui">
+        <mdui:DisplayName xml:lang="en">Perdana University</mdui:DisplayName>
+        <mdui:Description xml:lang="en">Perdana University</mdui:Description>
+        <mdui:InformationURL xml:lang="en">https://www.perdanauniversity.edu.my</mdui:InformationURL>
+        <mdui:PrivacyStatementURL xml:lang="en">http://www.perdanauniversity.edu.my/privacy-policy/</mdui:PrivacyStatementURL>
+        <mdui:Logo width="399" height="67" xml:lang="en">https://sso.perdanauniversity.edu.my/logo.png</mdui:Logo>
+      </mdui:UIInfo>
+    </md:Extensions>
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEITCCAwmgAwIBAgIJAOb3OJOpyWjyMA0GCSqGSIb3DQEBCwUAMIGmMQswCQYDVQQGEwJNWTEQMA4GA1UEBwwHU2VyZGFuZzEbMBkGA1UECgwSUGVyZGFuYSBVbml2ZXJzaXR5MQwwCgYDVQQLDANTU08xJTAjBgNVBAMMHHNzby5wZXJkYW5hdW5pdmVyc2l0eS5lZHUubXkxMzAxBgkqhkiG9w0BCQEWJGl0LWhlbHBkZXNrQHBlcmRhbmF1bml2ZXJzaXR5LmVkdS5teTAeFw0xODA0MTUwMzQ3MjZaFw0yODA0MTQwMzQ3MjZaMIGmMQswCQYDVQQGEwJNWTEQMA4GA1UEBwwHU2VyZGFuZzEbMBkGA1UECgwSUGVyZGFuYSBVbml2ZXJzaXR5MQwwCgYDVQQLDANTU08xJTAjBgNVBAMMHHNzby5wZXJkYW5hdW5pdmVyc2l0eS5lZHUubXkxMzAxBgkqhkiG9w0BCQEWJGl0LWhlbHBkZXNrQHBlcmRhbmF1bml2ZXJzaXR5LmVkdS5teTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOKDqlxNhCJxUpgsj43YNKrdnT0nmzHFw7FcANnxSlJCqF1MJhYjk8e8wxmjZW5CZk2OhrDg/qIz6A/q/W70y/Bhm7YNt6efL2J7t5vZECmd/K3Qwc8EC9K6DAHatk8OjfpFOfWqeup/l01KoYsRFTSCX5w9y4kD1cKwNIwKNN3AqLxFaHkoi6UN6LomdiFbWtJYZTs1PjVqDeCiIzRyfBjTvXDG+qV+i8RCfgNNMoxAVk3CsCrs1hRO5l4TlvpaGptido0We0bkr165wSvjfzyUuTmccweDINGOLxvzihlr1SV1SFHsHdY/ctjRsePxwzcv3g2e9dbhjoq2bJvlwtsCAwEAAaNQME4wHQYDVR0OBBYEFBfSbcbX59y3mGAHpxsP1DspxAeAMB8GA1UdIwQYMBaAFBfSbcbX59y3mGAHpxsP1DspxAeAMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAHmUodeBm1GSncXi8lGixZSB1X3HhWfrCyWvBzGJ2VmmxLXSjTcqj5ESdDgn0OlwavA5eLrwQZqphEM8pd6U9V6vOiaDUAValyHCskeNaWLTWfoReXqhhLZ2um6VtLvVKBTGl5fgO4T3zuxC6AojG/JH/jM5TTfGNnuTaezwma7BOcTDbLP3p1Kk3xZAh9Ro39Rdw/IjGMmQdZRG53X2lXg9aNH5H4ee4O6zglo30qGQtuC/3ZOfTd46wY1C/qz7cYev/eRgXfC9J+VIWVQueQcb4mh5NTHvX9Eb/sAsEUlxyRr3yQoKdRRh/UqCOQQDZVmRg3zOuJRHHNDROWnfC1k=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEITCCAwmgAwIBAgIJAOb3OJOpyWjyMA0GCSqGSIb3DQEBCwUAMIGmMQswCQYDVQQGEwJNWTEQMA4GA1UEBwwHU2VyZGFuZzEbMBkGA1UECgwSUGVyZGFuYSBVbml2ZXJzaXR5MQwwCgYDVQQLDANTU08xJTAjBgNVBAMMHHNzby5wZXJkYW5hdW5pdmVyc2l0eS5lZHUubXkxMzAxBgkqhkiG9w0BCQEWJGl0LWhlbHBkZXNrQHBlcmRhbmF1bml2ZXJzaXR5LmVkdS5teTAeFw0xODA0MTUwMzQ3MjZaFw0yODA0MTQwMzQ3MjZaMIGmMQswCQYDVQQGEwJNWTEQMA4GA1UEBwwHU2VyZGFuZzEbMBkGA1UECgwSUGVyZGFuYSBVbml2ZXJzaXR5MQwwCgYDVQQLDANTU08xJTAjBgNVBAMMHHNzby5wZXJkYW5hdW5pdmVyc2l0eS5lZHUubXkxMzAxBgkqhkiG9w0BCQEWJGl0LWhlbHBkZXNrQHBlcmRhbmF1bml2ZXJzaXR5LmVkdS5teTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOKDqlxNhCJxUpgsj43YNKrdnT0nmzHFw7FcANnxSlJCqF1MJhYjk8e8wxmjZW5CZk2OhrDg/qIz6A/q/W70y/Bhm7YNt6efL2J7t5vZECmd/K3Qwc8EC9K6DAHatk8OjfpFOfWqeup/l01KoYsRFTSCX5w9y4kD1cKwNIwKNN3AqLxFaHkoi6UN6LomdiFbWtJYZTs1PjVqDeCiIzRyfBjTvXDG+qV+i8RCfgNNMoxAVk3CsCrs1hRO5l4TlvpaGptido0We0bkr165wSvjfzyUuTmccweDINGOLxvzihlr1SV1SFHsHdY/ctjRsePxwzcv3g2e9dbhjoq2bJvlwtsCAwEAAaNQME4wHQYDVR0OBBYEFBfSbcbX59y3mGAHpxsP1DspxAeAMB8GA1UdIwQYMBaAFBfSbcbX59y3mGAHpxsP1DspxAeAMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAHmUodeBm1GSncXi8lGixZSB1X3HhWfrCyWvBzGJ2VmmxLXSjTcqj5ESdDgn0OlwavA5eLrwQZqphEM8pd6U9V6vOiaDUAValyHCskeNaWLTWfoReXqhhLZ2um6VtLvVKBTGl5fgO4T3zuxC6AojG/JH/jM5TTfGNnuTaezwma7BOcTDbLP3p1Kk3xZAh9Ro39Rdw/IjGMmQdZRG53X2lXg9aNH5H4ee4O6zglo30qGQtuC/3ZOfTd46wY1C/qz7cYev/eRgXfC9J+VIWVQueQcb4mh5NTHvX9Eb/sAsEUlxyRr3yQoKdRRh/UqCOQQDZVmRg3zOuJRHHNDROWnfC1k=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://sso.perdanauniversity.edu.my/saml2/idp/SingleLogoutService.php"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://sso.perdanauniversity.edu.my/saml2/idp/SSOService.php"/>
+  </md:IDPSSODescriptor>
+  <md:ContactPerson contactType="technical">
+    <md:GivenName>Administrator</md:GivenName>
+    <md:EmailAddress>it-helpdesk@perdanauniversity.edu.my</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

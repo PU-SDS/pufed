@@ -9,7 +9,6 @@
     <alg:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
     <alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
   </md:Extensions>
-
   <md:SPSSODescriptor AuthnRequestsSigned="1" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
     <md:Extensions>
       <init:RequestInitiator xmlns:init="urn:oasis:names:tc:SAML:profiles:SSO:request-init" Binding="urn:oasis:names:tc:SAML:profiles:SSO:request-init" Location="https://activ.perdanauniversity.edu.my/Shibboleth.sso/Login"/>
@@ -20,31 +19,8 @@
         <ds:KeyName>https://activ.perdanauniversity.edu.my/shibboleth</ds:KeyName>
         <ds:X509Data>
           <ds:X509SubjectName>CN=activ.perdanauniversity.edu.my</ds:X509SubjectName>
-          <ds:X509Certificate>MIIEVDCCArygAwIBAgIJAL+Un+oLxtuxMA0GCSqGSIb3DQEBCwUAMCkxJzAlBgNV
-BAMTHmFjdGl2LnBlcmRhbmF1bml2ZXJzaXR5LmVkdS5teTAeFw0yMTA2MDEwODM4
-MjdaFw0zMTA1MzAwODM4MjdaMCkxJzAlBgNVBAMTHmFjdGl2LnBlcmRhbmF1bml2
-ZXJzaXR5LmVkdS5teTCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBAKQe
-mpl3ovr1Bs3JeyZ2y3/nGMC1L3a/o+5ACnS5TJjbrjz/lTX/sqB5WMSB9/YyKx+U
-r+607YGSgYerNBJxhH/TEDJEsbDe0n4QPQuHayH3I2adqeBMvgO9hzKsmK3gt9od
-EsGbupm8Ay/0qBXRWiPrIMSK+oqBZ7C3v5Cu9c1kGgmo6fUn/K3OXWfxZu1gEHmL
-NmFQYJ0SXfqg2Ug5M9wSMTeEDptaahaXQGPWYdLv3rKp888e5NqHQPL4Bsw/pwB7
-aAIy2rKeV5AVuWW/q6+6uMAJw3hl2E6pxm5hwHC2BDOcwq1f4lxuNEjNwcgBSeT7
-+R77+w3w8X1DhuNro5x1hVDrWVppwFfuNlck1W7u2ktU5VkyQAlEZ8vbhhjWB2d8
-lbBPcwS3Ymt+4UOdLVZwEMmCtaOIXnibzs4jBsuMvs1PM+jc73Lu2hb6V+gKT/Oi
-+uSYk0ZD/goNtyWJE4/e12SgfjjVam7DzZnhVhGSVT6Y1jQNPoAJLcShRoxkMwID
-AQABo38wfTBcBgNVHREEVTBTgh5hY3Rpdi5wZXJkYW5hdW5pdmVyc2l0eS5lZHUu
-bXmGMWh0dHBzOi8vYWN0aXYucGVyZGFuYXVuaXZlcnNpdHkuZWR1Lm15L3NoaWJi
-b2xldGgwHQYDVR0OBBYEFHMrqR9eFLzHgKzVz81oMJJaW56YMA0GCSqGSIb3DQEB
-CwUAA4IBgQBpcE0v63RDKcamNB9oXZiuvY2k7IIPSaRdTs1XYTm43vv2QHzsnR5p
-BkYyeCe0drv9QQGyP6sAWUDGZ0xsYo8v8OYQ93NFYIrtTrAi27a4KpIMZvZ78HHj
-C1BXdX+tn+R7QB/VhQhGS1Z5lfIC6YhPbtWb+ZaQtMAqJ8/Qn4pm3V/F1pXgPcqX
-IVdEmGNz+8lCEOKbtqFjFmdhkqROBvZKHK4xIf7zEL1CGaf1CBCnv0urPKeftc+I
-F/I/TZmkxlF0XMK1T//ODamDBMcG2w9h2KmRvcypA1MhVss4nYHyW8CKAvj/3aE+
-VeqZleH8Cd49Y3yRSAAMadPVjnr8EMyW+wEncX7WZJS+Dtnjr7fx0AXFGkAD1GP/
-pd5sQw1ajOULLz5MTF39/DoP/X3/zL0ZrF2DxgjXaxrohnZS1yo1HZOjA0CJskfg
-vitnCA/w5hU6zdaXdntSFd/41Z2ZSRzpvNTCHivaxyUwmRA8EJHYHbjwMLPzFgtm
-E/ntkNLfmgw=
-</ds:X509Certificate>
+          <ds:X509Certificate>MIIEVDCCArygAwIBAgIJAL+Un+oLxtuxMA0GCSqGSIb3DQEBCwUAMCkxJzAlBgNV BAMTHmFjdGl2LnBlcmRhbmF1bml2ZXJzaXR5LmVkdS5teTAeFw0yMTA2MDEwODM4 MjdaFw0zMTA1MzAwODM4MjdaMCkxJzAlBgNVBAMTHmFjdGl2LnBlcmRhbmF1bml2 ZXJzaXR5LmVkdS5teTCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBAKQe mpl3ovr1Bs3JeyZ2y3/nGMC1L3a/o+5ACnS5TJjbrjz/lTX/sqB5WMSB9/YyKx+U r+607YGSgYerNBJxhH/TEDJEsbDe0n4QPQuHayH3I2adqeBMvgO9hzKsmK3gt9od EsGbupm8Ay/0qBXRWiPrIMSK+oqBZ7C3v5Cu9c1kGgmo6fUn/K3OXWfxZu1gEHmL NmFQYJ0SXfqg2Ug5M9wSMTeEDptaahaXQGPWYdLv3rKp888e5NqHQPL4Bsw/pwB7 aAIy2rKeV5AVuWW/q6+6uMAJw3hl2E6pxm5hwHC2BDOcwq1f4lxuNEjNwcgBSeT7 +R77+w3w8X1DhuNro5x1hVDrWVppwFfuNlck1W7u2ktU5VkyQAlEZ8vbhhjWB2d8 lbBPcwS3Ymt+4UOdLVZwEMmCtaOIXnibzs4jBsuMvs1PM+jc73Lu2hb6V+gKT/Oi +uSYk0ZD/goNtyWJE4/e12SgfjjVam7DzZnhVhGSVT6Y1jQNPoAJLcShRoxkMwID AQABo38wfTBcBgNVHREEVTBTgh5hY3Rpdi5wZXJkYW5hdW5pdmVyc2l0eS5lZHUu bXmGMWh0dHBzOi8vYWN0aXYucGVyZGFuYXVuaXZlcnNpdHkuZWR1Lm15L3NoaWJi b2xldGgwHQYDVR0OBBYEFHMrqR9eFLzHgKzVz81oMJJaW56YMA0GCSqGSIb3DQEB CwUAA4IBgQBpcE0v63RDKcamNB9oXZiuvY2k7IIPSaRdTs1XYTm43vv2QHzsnR5p BkYyeCe0drv9QQGyP6sAWUDGZ0xsYo8v8OYQ93NFYIrtTrAi27a4KpIMZvZ78HHj C1BXdX+tn+R7QB/VhQhGS1Z5lfIC6YhPbtWb+ZaQtMAqJ8/Qn4pm3V/F1pXgPcqX IVdEmGNz+8lCEOKbtqFjFmdhkqROBvZKHK4xIf7zEL1CGaf1CBCnv0urPKeftc+I F/I/TZmkxlF0XMK1T//ODamDBMcG2w9h2KmRvcypA1MhVss4nYHyW8CKAvj/3aE+ VeqZleH8Cd49Y3yRSAAMadPVjnr8EMyW+wEncX7WZJS+Dtnjr7fx0AXFGkAD1GP/ pd5sQw1ajOULLz5MTF39/DoP/X3/zL0ZrF2DxgjXaxrohnZS1yo1HZOjA0CJskfg vitnCA/w5hU6zdaXdntSFd/41Z2ZSRzpvNTCHivaxyUwmRA8EJHYHbjwMLPzFgtm E/ntkNLfmgw=
+          </ds:X509Certificate>
         </ds:X509Data>
       </ds:KeyInfo>
     </md:KeyDescriptor>
@@ -54,31 +30,8 @@ E/ntkNLfmgw=
         <ds:KeyName>https://activ.perdanauniversity.edu.my/shibboleth</ds:KeyName>
         <ds:X509Data>
           <ds:X509SubjectName>CN=activ.perdanauniversity.edu.my</ds:X509SubjectName>
-          <ds:X509Certificate>MIIEVDCCArygAwIBAgIJAMQj5nQsZo84MA0GCSqGSIb3DQEBCwUAMCkxJzAlBgNV
-BAMTHmFjdGl2LnBlcmRhbmF1bml2ZXJzaXR5LmVkdS5teTAeFw0yMTA2MDEwODM4
-MThaFw0zMTA1MzAwODM4MThaMCkxJzAlBgNVBAMTHmFjdGl2LnBlcmRhbmF1bml2
-ZXJzaXR5LmVkdS5teTCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBALH6
-PYmWyiIF7G7K+nB+sT+zMfVJr1s9/cI1FrGz10V2fuYqs2X7RtDurX3iLNXkRbYk
-E5ug7opHa2X3rZaQ5dn6xcEX1Ne5Rd5ZTvLIs/U9vca+/wYMIi7iTQspi2wzIup9
-TAx+aReSuuEziUTAeXCH2PJA5XQ1PFl0L8sisaYLEad+N2OpValqESBYl2wY8ei4
-z+cTflMo2IAbS8lZ1ei3A71hUlZl6iuMiRLAtibTqrr59dh/e7Kl2RL85S336Xum
-rLg6TelXqK2N3SYTq1l5O+vCN32cDiNVv6fho0nEybAEonfC2h2aiBMwTCuYicSz
-U8sTIyqnqYbmZP1iXaaQ7E3rTjIHw5wdDpeqAPIyO6e96NafiiyO6Pz+lB2sFRMi
-dZfQV1Ie4QH6wmQA+Aa2GSwtAQu5CZ/5VBiRcduX9fOUjqeCf35TnBcNfDQC18cI
-zokWAARH3chtpRcJUvRYgmS6FRy7UuWVz6Tnag72+v8Rx0wra43nRy31q4S/IwID
-AQABo38wfTBcBgNVHREEVTBTgh5hY3Rpdi5wZXJkYW5hdW5pdmVyc2l0eS5lZHUu
-bXmGMWh0dHBzOi8vYWN0aXYucGVyZGFuYXVuaXZlcnNpdHkuZWR1Lm15L3NoaWJi
-b2xldGgwHQYDVR0OBBYEFF+ftfJM4JUYliJK8C2CljdLSM4ZMA0GCSqGSIb3DQEB
-CwUAA4IBgQBQIh3D9ANN5wQhHsYW9neXnOyxBAhSDM6cAmHFaledKll4yuB5X/0z
-I+MbXA/oqOaXAMzV6lHleFrCjsNaitxp3XGELHqgCxn+GxWsgk/G0ZD1djjB7K1k
-hN1pF32L+RvBDN7JWvDX+a0aQ+0uUAyJEUP6oryd3IMX8o2s8tKZq2YftfFEyEM2
-Tn7nQfTEn99EhO2H6KoHR/N/mszTTX0SPx/WkRtSFnQum01KOLwQrV58/t/TGSKv
-wxTboSk54bpm+EkPOSN57gAc33FSR0YzovPcScSWtBsliUnaEHycRT4c2t8an8JP
-zT4KE/+dC5Js/pHha2ddjah7F9Uo6rodn1DWRkw60S6LdnGBJSg6/oC5n7wtnVDi
-kqfSHNdhooVoxqen2Uy/sb8vJk+dJRkF2gKYULAhbM7mjW0GT0w48EBeqpNYA2mC
-IOlO3YswVKCPLnu4DcKZljVoDv4gecxsBOoMT/if6JeSS+JOZ9ycUFT4V7JJd0Zh
-rQG9j1H6uVs=
-</ds:X509Certificate>
+          <ds:X509Certificate>MIIEVDCCArygAwIBAgIJAMQj5nQsZo84MA0GCSqGSIb3DQEBCwUAMCkxJzAlBgNV BAMTHmFjdGl2LnBlcmRhbmF1bml2ZXJzaXR5LmVkdS5teTAeFw0yMTA2MDEwODM4 MThaFw0zMTA1MzAwODM4MThaMCkxJzAlBgNVBAMTHmFjdGl2LnBlcmRhbmF1bml2 ZXJzaXR5LmVkdS5teTCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBALH6 PYmWyiIF7G7K+nB+sT+zMfVJr1s9/cI1FrGz10V2fuYqs2X7RtDurX3iLNXkRbYk E5ug7opHa2X3rZaQ5dn6xcEX1Ne5Rd5ZTvLIs/U9vca+/wYMIi7iTQspi2wzIup9 TAx+aReSuuEziUTAeXCH2PJA5XQ1PFl0L8sisaYLEad+N2OpValqESBYl2wY8ei4 z+cTflMo2IAbS8lZ1ei3A71hUlZl6iuMiRLAtibTqrr59dh/e7Kl2RL85S336Xum rLg6TelXqK2N3SYTq1l5O+vCN32cDiNVv6fho0nEybAEonfC2h2aiBMwTCuYicSz U8sTIyqnqYbmZP1iXaaQ7E3rTjIHw5wdDpeqAPIyO6e96NafiiyO6Pz+lB2sFRMi dZfQV1Ie4QH6wmQA+Aa2GSwtAQu5CZ/5VBiRcduX9fOUjqeCf35TnBcNfDQC18cI zokWAARH3chtpRcJUvRYgmS6FRy7UuWVz6Tnag72+v8Rx0wra43nRy31q4S/IwID AQABo38wfTBcBgNVHREEVTBTgh5hY3Rpdi5wZXJkYW5hdW5pdmVyc2l0eS5lZHUu bXmGMWh0dHBzOi8vYWN0aXYucGVyZGFuYXVuaXZlcnNpdHkuZWR1Lm15L3NoaWJi b2xldGgwHQYDVR0OBBYEFF+ftfJM4JUYliJK8C2CljdLSM4ZMA0GCSqGSIb3DQEB CwUAA4IBgQBQIh3D9ANN5wQhHsYW9neXnOyxBAhSDM6cAmHFaledKll4yuB5X/0z I+MbXA/oqOaXAMzV6lHleFrCjsNaitxp3XGELHqgCxn+GxWsgk/G0ZD1djjB7K1k hN1pF32L+RvBDN7JWvDX+a0aQ+0uUAyJEUP6oryd3IMX8o2s8tKZq2YftfFEyEM2 Tn7nQfTEn99EhO2H6KoHR/N/mszTTX0SPx/WkRtSFnQum01KOLwQrV58/t/TGSKv wxTboSk54bpm+EkPOSN57gAc33FSR0YzovPcScSWtBsliUnaEHycRT4c2t8an8JP zT4KE/+dC5Js/pHha2ddjah7F9Uo6rodn1DWRkw60S6LdnGBJSg6/oC5n7wtnVDi kqfSHNdhooVoxqen2Uy/sb8vJk+dJRkF2gKYULAhbM7mjW0GT0w48EBeqpNYA2mC IOlO3YswVKCPLnu4DcKZljVoDv4gecxsBOoMT/if6JeSS+JOZ9ycUFT4V7JJd0Zh rQG9j1H6uVs=
+          </ds:X509Certificate>
         </ds:X509Data>
       </ds:KeyInfo>
       <md:EncryptionMethod Algorithm="http://www.w3.org/2009/xmlenc11#aes256-gcm"/>
