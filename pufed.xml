@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<md:EntitiesDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:mdrpi="urn:oasis:names:tc:SAML:metadata:rpi" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xrd="http://docs.oasis-open.org/ns/xri/xrd-1.0" xmlns:pyff="http://pyff.io/NS" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ser="http://eidas.europa.eu/metadata/servicelist" xmlns:eidas="http://eidas.europa.eu/saml-extensions" xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:idpdisc="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" xmlns:init="urn:oasis:names:tc:SAML:profiles:SSO:request-init" xmlns:xi="http://www.w3.org/2001/XInclude" Name="/github/workspace/pufed"><ds:Signature><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#WithComments"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>hljkhZdMwM1Gh1JhqXl4bU3ADcEA44AbaN5Ncag8c5U=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>VMA5T+S56jvHJYfCF+8Fc+yo49l6bvd5/KM7T5VEwNNPz31paDMnStEo/q64qoPY/1pSmBy6fb1WAmWroUyF9CU5GJoI8nhDAib1UcwAXkK5484mSlkDevmyN/YrmiBvsHgChokDKrZhGU53mmNK3SiX7f4gf3Cx65lhjvIHpqOlotrL0g+2vMydmpswTbI82JFqet/7HiyePzWZk+pPr5RvtGDenI/zTbx/kCFtfuVIAp0DAcCGxxnOOMkVWofSjKVEFKnY3AJq1qUiOU0eCbVXbgypzjv2vccXwomw3wdwfulTTId5tpqc+pInG8fG5Smz6itX1G99I13KUp2uelppb4RNiI39nuGy/q9jeIITMh92z4Y0l1Ut6KRzZwJgJiN3XfVsLi3nKW0i9YtdN199VmpYer3Ax5z1coGOjrZqmbryU0l4WQ97F+pfVdbiFxujZEFDC0pJkYm18pSSIjgm8na8/fhEX17gsiC3doVbvzIjjaPsmm3HP6ifcudu</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEcjCCAtoCCQDnFhoAhWOF3DANBgkqhkiG9w0BAQsFADB7MQswCQYDVQQGEwJN
+<md:EntitiesDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:mdrpi="urn:oasis:names:tc:SAML:metadata:rpi" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xrd="http://docs.oasis-open.org/ns/xri/xrd-1.0" xmlns:pyff="http://pyff.io/NS" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ser="http://eidas.europa.eu/metadata/servicelist" xmlns:eidas="http://eidas.europa.eu/saml-extensions" xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:idpdisc="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" xmlns:init="urn:oasis:names:tc:SAML:profiles:SSO:request-init" xmlns:xi="http://www.w3.org/2001/XInclude" Name="/github/workspace/pufed"><ds:Signature><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#WithComments"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>eHx+X7zzmyzGzlXZPDMOeGAgtFeyoBv/kYi2u8VySgI=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>XzJOZlVZ21GqJjGKzXWHERvc0MjiU5M0g2E650peLq2zH3GMEsSGoHqmXqBWaP8W5RViDTgK31b1CHK4mAUl3YHfLmG3IcuAlC1wGZYv5AjMtzdIxaX47JF/ruaxgQ/iV9/fuJzLIvGAJ4kxC9PI4ICmyx28EaG1RC/qbqj695n9HXGRWJJUGvKJAiaN+hnz42G6M72oqS/DD2Bq3UU7H0eSvE4bS53pQUd0r3WIszGg8kQC2zLZBYXaOLVlO0t5VcNB2Iy1hTKvuIqABciBE/Uu1GXOjMIjuXnJ5c2YQdTOdCMO9965NaiWd4gEmpuHlbYQe7vjBQkTYbdGSTdOvagjkG8cuWlKDkcfIyQJaxeFKvK33eK0HVmo2EmCP+inFpLBVSrXGhRyDFEv//kwGN9YWn9kNztVUQy3jRiB+wKUy3C35Gg3J+ZonDYIPyd/Xsnz2+MbLgTq7qBVB9g9Qc8JZNtNM5qup7qAr9mmDNtJcK8ZVUdLP8P8oePek3xs</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEcjCCAtoCCQDnFhoAhWOF3DANBgkqhkiG9w0BAQsFADB7MQswCQYDVQQGEwJN
 WTEbMBkGA1UECgwSUGVyZGFuYSBVbml2ZXJzaXR5MRowGAYDVQQDDBFQVSBTU08g
 RmVkZXJhdGlvbjEzMDEGCSqGSIb3DQEJARYkaXQtaGVscGRlc2tAcGVyZGFuYXVu
 aXZlcnNpdHkuZWR1Lm15MB4XDTIxMDgwNzAyMjMyNFoXDTMxMDgwNzAyMjMyNFow
@@ -230,40 +230,241 @@ OYjLbEbldussx/zp6zbHLXqxjh/Q/GK1kCwiKXMrrOQjRTdolm4=</ds:X509Certificate></ds:X5
     <md:EmailAddress>it-helpdesk@perdanauniversity.edu.my</md:EmailAddress>
   </md:ContactPerson>
 </md:EntityDescriptor><md:EntityDescriptor entityID="https://sso.perdanauniversity.edu.my/saml2/idp/metadata.php">
-  
-  <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
-    <md:Extensions>
-      <shibmd:Scope regexp="false">perdanauniversity.edu.my</shibmd:Scope>
-      <mdui:UIInfo>
-        <mdui:DisplayName xml:lang="en">Perdana University</mdui:DisplayName>
-        <mdui:Description xml:lang="en">Perdana University</mdui:Description>
-        <mdui:InformationURL xml:lang="en">https://www.perdanauniversity.edu.my</mdui:InformationURL>
-        <mdui:PrivacyStatementURL xml:lang="en">http://www.perdanauniversity.edu.my/privacy-policy/</mdui:PrivacyStatementURL>
-        <mdui:Logo width="399" height="67" xml:lang="en">https://sso.perdanauniversity.edu.my/logo.png</mdui:Logo>
-      </mdui:UIInfo>
+    <md:Extensions xmlns:alg="urn:oasis:names:tc:SAML:metadata:algsupport">
+        <alg:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+        <alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
     </md:Extensions>
-    <md:KeyDescriptor use="signing">
-      <ds:KeyInfo>
-        <ds:X509Data>
-          <ds:X509Certificate>MIIEITCCAwmgAwIBAgIJAOb3OJOpyWjyMA0GCSqGSIb3DQEBCwUAMIGmMQswCQYDVQQGEwJNWTEQMA4GA1UEBwwHU2VyZGFuZzEbMBkGA1UECgwSUGVyZGFuYSBVbml2ZXJzaXR5MQwwCgYDVQQLDANTU08xJTAjBgNVBAMMHHNzby5wZXJkYW5hdW5pdmVyc2l0eS5lZHUubXkxMzAxBgkqhkiG9w0BCQEWJGl0LWhlbHBkZXNrQHBlcmRhbmF1bml2ZXJzaXR5LmVkdS5teTAeFw0xODA0MTUwMzQ3MjZaFw0yODA0MTQwMzQ3MjZaMIGmMQswCQYDVQQGEwJNWTEQMA4GA1UEBwwHU2VyZGFuZzEbMBkGA1UECgwSUGVyZGFuYSBVbml2ZXJzaXR5MQwwCgYDVQQLDANTU08xJTAjBgNVBAMMHHNzby5wZXJkYW5hdW5pdmVyc2l0eS5lZHUubXkxMzAxBgkqhkiG9w0BCQEWJGl0LWhlbHBkZXNrQHBlcmRhbmF1bml2ZXJzaXR5LmVkdS5teTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOKDqlxNhCJxUpgsj43YNKrdnT0nmzHFw7FcANnxSlJCqF1MJhYjk8e8wxmjZW5CZk2OhrDg/qIz6A/q/W70y/Bhm7YNt6efL2J7t5vZECmd/K3Qwc8EC9K6DAHatk8OjfpFOfWqeup/l01KoYsRFTSCX5w9y4kD1cKwNIwKNN3AqLxFaHkoi6UN6LomdiFbWtJYZTs1PjVqDeCiIzRyfBjTvXDG+qV+i8RCfgNNMoxAVk3CsCrs1hRO5l4TlvpaGptido0We0bkr165wSvjfzyUuTmccweDINGOLxvzihlr1SV1SFHsHdY/ctjRsePxwzcv3g2e9dbhjoq2bJvlwtsCAwEAAaNQME4wHQYDVR0OBBYEFBfSbcbX59y3mGAHpxsP1DspxAeAMB8GA1UdIwQYMBaAFBfSbcbX59y3mGAHpxsP1DspxAeAMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAHmUodeBm1GSncXi8lGixZSB1X3HhWfrCyWvBzGJ2VmmxLXSjTcqj5ESdDgn0OlwavA5eLrwQZqphEM8pd6U9V6vOiaDUAValyHCskeNaWLTWfoReXqhhLZ2um6VtLvVKBTGl5fgO4T3zuxC6AojG/JH/jM5TTfGNnuTaezwma7BOcTDbLP3p1Kk3xZAh9Ro39Rdw/IjGMmQdZRG53X2lXg9aNH5H4ee4O6zglo30qGQtuC/3ZOfTd46wY1C/qz7cYev/eRgXfC9J+VIWVQueQcb4mh5NTHvX9Eb/sAsEUlxyRr3yQoKdRRh/UqCOQQDZVmRg3zOuJRHHNDROWnfC1k=</ds:X509Certificate>
-        </ds:X509Data>
-      </ds:KeyInfo>
-    </md:KeyDescriptor>
-    <md:KeyDescriptor use="encryption">
-      <ds:KeyInfo>
-        <ds:X509Data>
-          <ds:X509Certificate>MIIEITCCAwmgAwIBAgIJAOb3OJOpyWjyMA0GCSqGSIb3DQEBCwUAMIGmMQswCQYDVQQGEwJNWTEQMA4GA1UEBwwHU2VyZGFuZzEbMBkGA1UECgwSUGVyZGFuYSBVbml2ZXJzaXR5MQwwCgYDVQQLDANTU08xJTAjBgNVBAMMHHNzby5wZXJkYW5hdW5pdmVyc2l0eS5lZHUubXkxMzAxBgkqhkiG9w0BCQEWJGl0LWhlbHBkZXNrQHBlcmRhbmF1bml2ZXJzaXR5LmVkdS5teTAeFw0xODA0MTUwMzQ3MjZaFw0yODA0MTQwMzQ3MjZaMIGmMQswCQYDVQQGEwJNWTEQMA4GA1UEBwwHU2VyZGFuZzEbMBkGA1UECgwSUGVyZGFuYSBVbml2ZXJzaXR5MQwwCgYDVQQLDANTU08xJTAjBgNVBAMMHHNzby5wZXJkYW5hdW5pdmVyc2l0eS5lZHUubXkxMzAxBgkqhkiG9w0BCQEWJGl0LWhlbHBkZXNrQHBlcmRhbmF1bml2ZXJzaXR5LmVkdS5teTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOKDqlxNhCJxUpgsj43YNKrdnT0nmzHFw7FcANnxSlJCqF1MJhYjk8e8wxmjZW5CZk2OhrDg/qIz6A/q/W70y/Bhm7YNt6efL2J7t5vZECmd/K3Qwc8EC9K6DAHatk8OjfpFOfWqeup/l01KoYsRFTSCX5w9y4kD1cKwNIwKNN3AqLxFaHkoi6UN6LomdiFbWtJYZTs1PjVqDeCiIzRyfBjTvXDG+qV+i8RCfgNNMoxAVk3CsCrs1hRO5l4TlvpaGptido0We0bkr165wSvjfzyUuTmccweDINGOLxvzihlr1SV1SFHsHdY/ctjRsePxwzcv3g2e9dbhjoq2bJvlwtsCAwEAAaNQME4wHQYDVR0OBBYEFBfSbcbX59y3mGAHpxsP1DspxAeAMB8GA1UdIwQYMBaAFBfSbcbX59y3mGAHpxsP1DspxAeAMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAHmUodeBm1GSncXi8lGixZSB1X3HhWfrCyWvBzGJ2VmmxLXSjTcqj5ESdDgn0OlwavA5eLrwQZqphEM8pd6U9V6vOiaDUAValyHCskeNaWLTWfoReXqhhLZ2um6VtLvVKBTGl5fgO4T3zuxC6AojG/JH/jM5TTfGNnuTaezwma7BOcTDbLP3p1Kk3xZAh9Ro39Rdw/IjGMmQdZRG53X2lXg9aNH5H4ee4O6zglo30qGQtuC/3ZOfTd46wY1C/qz7cYev/eRgXfC9J+VIWVQueQcb4mh5NTHvX9Eb/sAsEUlxyRr3yQoKdRRh/UqCOQQDZVmRg3zOuJRHHNDROWnfC1k=</ds:X509Certificate>
-        </ds:X509Data>
-      </ds:KeyInfo>
-    </md:KeyDescriptor>
-    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://sso.perdanauniversity.edu.my/saml2/idp/SingleLogoutService.php"/>
-    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
-    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://sso.perdanauniversity.edu.my/saml2/idp/SSOService.php"/>
-  </md:IDPSSODescriptor>
-  <md:ContactPerson contactType="technical">
-    <md:GivenName>Administrator</md:GivenName>
-    <md:EmailAddress>it-helpdesk@perdanauniversity.edu.my</md:EmailAddress>
-  </md:ContactPerson>
+    <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol urn:oasis:names:tc:SAML:1.1:protocol urn:mace:shibboleth:1.0">
+        <md:Extensions>
+            <shibmd:Scope regexp="false">perdanauniversity.edu.my</shibmd:Scope>
+            <mdui:UIInfo>
+                <mdui:DisplayName xml:lang="en">Perdana University</mdui:DisplayName>
+                <mdui:Description xml:lang="en">Research and Education Communities</mdui:Description>
+                <mdui:InformationURL xml:lang="en">https://www.perdanauniversity.edu.my</mdui:InformationURL>
+                <mdui:Logo width="372" height="200" xml:lang="en">https://sso.perdanauniversity.edu.my/idp/images/logo.png</mdui:Logo>
+            </mdui:UIInfo>
+        </md:Extensions>
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>
+MIIEWzCCAsOgAwIBAgIUPKJNIGyIjy4mICnKXEBD/VqLqY8wDQYJKoZIhvcNAQEL
+BQAwJzElMCMGA1UEAwwcc3NvLnBlcmRhbmF1bml2ZXJzaXR5LmVkdS5teTAeFw0y
+MTA5MTAyMTEzMTFaFw00MTA5MTAyMTEzMTFaMCcxJTAjBgNVBAMMHHNzby5wZXJk
+YW5hdW5pdmVyc2l0eS5lZHUubXkwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGK
+AoIBgQDAz0iBhlZNgPZrnyeaRRvItj+LQ8cJwDDNV31Y30O7RWF5OpwIheCi3YeL
+4y6BiAxIMTw6D1YaPypO7VdJNQ9HSvNUy62iYdVhErCdcn2JhCJk6qUNmvh7VMQ4
+cS+UvAb0GNOTNN0gp2kD+C1jw31tH/Q2Bm3Yp70Xy8cpvhN0CuKIzM6rBqlbjnRK
+UzLrORe3dfHB4VB5LYPvPg4BfAFU8Vysy/9/dDhtqfaM2OoGRZgXbUiS2vgpC9No
+czh9+Wbvw/aCfvnwkAee1aNBgb/iT88Ki9YSug5lG0xKNpwMksPUvmJLlBc7QlQI
+zurhLu1AghDwLVDcz0qY24w5LEqdIm7DJnb3uaBYwGcLDzef0BJCzz1BCOyUY50B
+jz1socOfIU2H7Z0L//xdlZvkkPJCQL/yz8Nc0BTV4mOqPV34CIPgyKEgKJ7Dokw0
+keIUrz92D1w2NsHvQepA4fXmqdCOdcGvnegyUG9RrirsQEnjjajshfNemMNqyZ6D
+iNBQb2cCAwEAAaN/MH0wHQYDVR0OBBYEFFYWwJF78EJpDkKhrvLR2/9cupu/MFwG
+A1UdEQRVMFOCHHNzby5wZXJkYW5hdW5pdmVyc2l0eS5lZHUubXmGM2h0dHBzOi8v
+c3NvLnBlcmRhbmF1bml2ZXJzaXR5LmVkdS5teS9pZHAvc2hpYmJvbGV0aDANBgkq
+hkiG9w0BAQsFAAOCAYEAnBHaaBVMg63STMkyklmKnhNGX8NZkA/ZY9k/SrzdDhmB
+eK/UuqumPqJoLQGnuUwnAU1yIwQkTHG++vmrrF56DrlXonvLx9zY1fvGee/VVgFA
+Gv3qFMYCRGTnVRL5DjwI3l/9YoLUAatVl2F8f42mPqjmSseDKl6YHasm5h/JBFBl
+YKiyaDdQHrYOlf/7X5VC4qzmWfM52QX3QtpLZ1k2RmSYiQVnbnBLFIZBSqbDJDpw
+O6obi9Fc62jebu20LRxOUi8KYlajlN7g5RWxm358Rr5uZTb7h7uSs+ubk/z+vtGw
+JagwTQTeoYRUOFkFlMNETNhogfGLVAD04mubsR6NltynSqSv0ac0KGvd4DPlhSWy
+DGeAZ3xDaZNxYz/p3HNvINFDDwK/tA5XzVTJoHjYgLZRlx1IwqbpyxReREw6epaB
+eBhrLPkuekaLPMN8PdQE0Nm5/1rUei/KPtPcx6rznJf2ieanEW2FxOsbpLjzu3Ut
+lLEFAAM+bmINWNtu5gAs
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>
+MIIEWzCCAsOgAwIBAgIUbTcLEzAD1h2HwIOYzBm4CgLUnc4wDQYJKoZIhvcNAQEL
+BQAwJzElMCMGA1UEAwwcc3NvLnBlcmRhbmF1bml2ZXJzaXR5LmVkdS5teTAeFw0y
+MTA5MTAyMTEzMDlaFw00MTA5MTAyMTEzMDlaMCcxJTAjBgNVBAMMHHNzby5wZXJk
+YW5hdW5pdmVyc2l0eS5lZHUubXkwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGK
+AoIBgQC0yHAqgHmIFyxe7uJtrcMNJnK+dc32XGp6qTVBrJMX5o2B8DGvHwc6bO2L
+rAqMkydVq/2f77LurNXWAeGPT2v5Dnoz8TuLWteuhpvWJ0UddZqsT2o7TLPLzfkz
+k1QVGWlkANm4dSr+CLj00k/OO5yST556VBLZLkPV7SzRDeBKGvU1hiVMDk5Rbgnm
+j5VB94LStbynQ5YsGnHi+uOHgkYSoG8wkXHmAG4pQbFCRfmj3tXCHprDl2iG6JiX
+/i67Z9RhmWg340YMCursK7s4ftlu+5Up/UcDc1cK1TEHRu1DPtH9W+pQOzO7JyVW
+dBUyRlGK0doA9A2kpNC1W53zGL0GcWyQou8vwqNwmOqJEY9163hXVUY4Qc7aDUZ1
+kdnqzjDEU2I1Zkj+w2OBY4NfDHNUjM2mpIkfR0g3vf8siz+D9h7CWMEGeZYMkFGX
+TzuysxkmIDgeYrYGa4MpU+OjsgX1xeDmtQHuqbCKsDa6tIIUAkyxDEBHRjmljOCz
+djONousCAwEAAaN/MH0wHQYDVR0OBBYEFOfpTHUpFFwdMBtauAVbtFwwG8StMFwG
+A1UdEQRVMFOCHHNzby5wZXJkYW5hdW5pdmVyc2l0eS5lZHUubXmGM2h0dHBzOi8v
+c3NvLnBlcmRhbmF1bml2ZXJzaXR5LmVkdS5teS9pZHAvc2hpYmJvbGV0aDANBgkq
+hkiG9w0BAQsFAAOCAYEAW0ENglyC4j1nq9QtJS4CipDkUT87sd1GJHOoePAnHa4O
+YXyxdz4aCQtkdnKzkmnVAQ77MJBdpgcyPscjl8ccllFHPHzvXLuxsH01Aw7tRO+T
+KkPsKqk6OzfBG37BP4kOVloyW8frt6tvWGQM19i6beJa0Xe+M3D2BXz8lfgURB2f
+jvGl974PkCGomXHQv7J5LCI8fNY7EBG+9Gn+Tl/cDat9a3qqRo1pUZDxDrTOqNM6
+A1GkJbj+EriB0niSBwXz/Iyp0lurKFMbB33wTje6aHfxy6xQTpkcF9gxc/Qu8ewB
+ZkeLHa7tvOnwYw9OkIPODesivQczt99MRzaltDO21LSVwCF17cHUGWG1if+AHeXP
+1exr/GFoRGtlZVu4nh6RMUbbJEBlS02DVFCnmrbonaJvPtIvzR7sbdk+3Vto75Ei
+a7yc11jvuVQCvIeuTdShN/YPwqY/HZEJu2WUj9GUdHXVsQ7ToiCrmeIiv+FvxH9d
+pnzopUKAARvWXRxnt1cm
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:KeyDescriptor use="encryption">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>
+MIIEXDCCAsSgAwIBAgIVAPSZsIg7vNIzm/O1mEO9MB5ogoi4MA0GCSqGSIb3DQEB
+CwUAMCcxJTAjBgNVBAMMHHNzby5wZXJkYW5hdW5pdmVyc2l0eS5lZHUubXkwHhcN
+MjEwOTEwMjExMzEwWhcNNDEwOTEwMjExMzEwWjAnMSUwIwYDVQQDDBxzc28ucGVy
+ZGFuYXVuaXZlcnNpdHkuZWR1Lm15MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIB
+igKCAYEA7xvHIpSO7pkyKGgI5wmtQ7c0LimeW9JlZo2jZyZm4S2Llxqok6YvyHHk
+dFRF0xXnSVPLkeBMWv82lJFMPqkQyJa2ddsk2j9nPpVI6Z/1Tilpy5vbb4Wbs0BO
+QcMC6Q0MCQ/3sXGobM02iLwO7/jG+y1qZvOq1rXlSk2/QaRtJjs9GldkeX8DmCHV
+5YlZdUu1Z/xhGLEwflmou+1yDwdr5ghvs6yuHbeDPwCiDOVaUViKXFm9vKIq6x0Y
+QwCLgjrIjenjI4G+o3hpKfOAA/7+ifFPB7zUxLRg/DH7m9/0UXbeb7UYdlczE0vo
+AipLZcEmXjMd9EixdbkFNWhCHw7T759of5nv8Ae/1R0tmjiUaAUsPA2TaoUWSRaC
+SBxAq4NLMT+lGhel2On4NgrU45gn8xVzHNai4PH0rs2uk4MUACtjwAPqUcaI+cXg
+5K90wefB3QmHeeZO21pEzZvSEFMDhwb/TjLKwUibj1iEU0FtCIxMKiG0EGo6VYdz
+hDNFvB2RAgMBAAGjfzB9MB0GA1UdDgQWBBTTASLfRrVQyeafyKnpVX2QqYzQDDBc
+BgNVHREEVTBTghxzc28ucGVyZGFuYXVuaXZlcnNpdHkuZWR1Lm15hjNodHRwczov
+L3Nzby5wZXJkYW5hdW5pdmVyc2l0eS5lZHUubXkvaWRwL3NoaWJib2xldGgwDQYJ
+KoZIhvcNAQELBQADggGBADY5se4lPmPaOhXSnEDRSQEb1tRNNNEA6TWdo0yJS/D6
+/L65ZFM+n3j6svjNv4cHvYgFOvw3SC+GdWtwJfygRZe74nJpHM9wz6yKvoof8lE+
+Y0Avg+wF4bBCR3VotGMJsUYt69+a0al01JN51+1Z18xJb1d+shGQs9NYC5x6X75U
+N3Ma6YFNoot9wqpxDOVxNLYBKdEIwMgKxbsUiFkI22ESkroEJFraMSpxMjUeUBO5
+n31O6hattJM6jWP3uJ0rUDtX6SDqfyC2Il+d4fNNessMoQi4EQZpMNXk9jZlMPIo
+Wf/8e1iJiuQ9FS6iSDkNF70JU0jxQZJo/TXR3hdadcWSBIADouER7of49o43c9I3
+kBV2YGqYJEJeENR5N/bCIgvaO1wRDMu2Mye2n+70+IZcHWmSQa8ybBE0KgIG4NQO
+jfzjRZuOOpJWvg7TLVslRaFFEcYaISORXZfRrJoE9nx4yR0b4jA09wap78I2BRPN
+AeBdr7tG6OHMP464IeW7qQ==
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://sso.perdanauniversity.edu.my/idp/profile/SAML2/SOAP/ArtifactResolution" index="2"/>
+        <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://sso.perdanauniversity.edu.my/idp/profile/SAML1/SOAP/ArtifactResolution" index="1"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.perdanauniversity.edu.my/idp/profile/SAML2/POST/SLO"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://sso.perdanauniversity.edu.my/idp/profile/SAML2/Redirect/SLO"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://sso.perdanauniversity.edu.my/idp/profile/SAML2/SOAP/SLO"/>
+        <md:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</md:NameIDFormat>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://sso.perdanauniversity.edu.my/idp/profile/SAML2/POST-SimpleSign/SSO"/>
+        <md:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://sso.perdanauniversity.edu.my/idp/profile/Shibboleth/SSO"/>
+        <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.perdanauniversity.edu.my/idp/profile/SAML2/POST/SSO"/>
+        <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://sso.perdanauniversity.edu.my/idp/profile/SAML2/Redirect/SSO"/>
+    </md:IDPSSODescriptor>
+    <md:AttributeAuthorityDescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol urn:oasis:names:tc:SAML:1.1:protocol">
+        <md:Extensions>
+            <shibmd:Scope regexp="false">perdanauniversity.edu.my</shibmd:Scope>
+        </md:Extensions>
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>
+MIIEWzCCAsOgAwIBAgIUPKJNIGyIjy4mICnKXEBD/VqLqY8wDQYJKoZIhvcNAQEL
+BQAwJzElMCMGA1UEAwwcc3NvLnBlcmRhbmF1bml2ZXJzaXR5LmVkdS5teTAeFw0y
+MTA5MTAyMTEzMTFaFw00MTA5MTAyMTEzMTFaMCcxJTAjBgNVBAMMHHNzby5wZXJk
+YW5hdW5pdmVyc2l0eS5lZHUubXkwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGK
+AoIBgQDAz0iBhlZNgPZrnyeaRRvItj+LQ8cJwDDNV31Y30O7RWF5OpwIheCi3YeL
+4y6BiAxIMTw6D1YaPypO7VdJNQ9HSvNUy62iYdVhErCdcn2JhCJk6qUNmvh7VMQ4
+cS+UvAb0GNOTNN0gp2kD+C1jw31tH/Q2Bm3Yp70Xy8cpvhN0CuKIzM6rBqlbjnRK
+UzLrORe3dfHB4VB5LYPvPg4BfAFU8Vysy/9/dDhtqfaM2OoGRZgXbUiS2vgpC9No
+czh9+Wbvw/aCfvnwkAee1aNBgb/iT88Ki9YSug5lG0xKNpwMksPUvmJLlBc7QlQI
+zurhLu1AghDwLVDcz0qY24w5LEqdIm7DJnb3uaBYwGcLDzef0BJCzz1BCOyUY50B
+jz1socOfIU2H7Z0L//xdlZvkkPJCQL/yz8Nc0BTV4mOqPV34CIPgyKEgKJ7Dokw0
+keIUrz92D1w2NsHvQepA4fXmqdCOdcGvnegyUG9RrirsQEnjjajshfNemMNqyZ6D
+iNBQb2cCAwEAAaN/MH0wHQYDVR0OBBYEFFYWwJF78EJpDkKhrvLR2/9cupu/MFwG
+A1UdEQRVMFOCHHNzby5wZXJkYW5hdW5pdmVyc2l0eS5lZHUubXmGM2h0dHBzOi8v
+c3NvLnBlcmRhbmF1bml2ZXJzaXR5LmVkdS5teS9pZHAvc2hpYmJvbGV0aDANBgkq
+hkiG9w0BAQsFAAOCAYEAnBHaaBVMg63STMkyklmKnhNGX8NZkA/ZY9k/SrzdDhmB
+eK/UuqumPqJoLQGnuUwnAU1yIwQkTHG++vmrrF56DrlXonvLx9zY1fvGee/VVgFA
+Gv3qFMYCRGTnVRL5DjwI3l/9YoLUAatVl2F8f42mPqjmSseDKl6YHasm5h/JBFBl
+YKiyaDdQHrYOlf/7X5VC4qzmWfM52QX3QtpLZ1k2RmSYiQVnbnBLFIZBSqbDJDpw
+O6obi9Fc62jebu20LRxOUi8KYlajlN7g5RWxm358Rr5uZTb7h7uSs+ubk/z+vtGw
+JagwTQTeoYRUOFkFlMNETNhogfGLVAD04mubsR6NltynSqSv0ac0KGvd4DPlhSWy
+DGeAZ3xDaZNxYz/p3HNvINFDDwK/tA5XzVTJoHjYgLZRlx1IwqbpyxReREw6epaB
+eBhrLPkuekaLPMN8PdQE0Nm5/1rUei/KPtPcx6rznJf2ieanEW2FxOsbpLjzu3Ut
+lLEFAAM+bmINWNtu5gAs
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>
+MIIEWzCCAsOgAwIBAgIUbTcLEzAD1h2HwIOYzBm4CgLUnc4wDQYJKoZIhvcNAQEL
+BQAwJzElMCMGA1UEAwwcc3NvLnBlcmRhbmF1bml2ZXJzaXR5LmVkdS5teTAeFw0y
+MTA5MTAyMTEzMDlaFw00MTA5MTAyMTEzMDlaMCcxJTAjBgNVBAMMHHNzby5wZXJk
+YW5hdW5pdmVyc2l0eS5lZHUubXkwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGK
+AoIBgQC0yHAqgHmIFyxe7uJtrcMNJnK+dc32XGp6qTVBrJMX5o2B8DGvHwc6bO2L
+rAqMkydVq/2f77LurNXWAeGPT2v5Dnoz8TuLWteuhpvWJ0UddZqsT2o7TLPLzfkz
+k1QVGWlkANm4dSr+CLj00k/OO5yST556VBLZLkPV7SzRDeBKGvU1hiVMDk5Rbgnm
+j5VB94LStbynQ5YsGnHi+uOHgkYSoG8wkXHmAG4pQbFCRfmj3tXCHprDl2iG6JiX
+/i67Z9RhmWg340YMCursK7s4ftlu+5Up/UcDc1cK1TEHRu1DPtH9W+pQOzO7JyVW
+dBUyRlGK0doA9A2kpNC1W53zGL0GcWyQou8vwqNwmOqJEY9163hXVUY4Qc7aDUZ1
+kdnqzjDEU2I1Zkj+w2OBY4NfDHNUjM2mpIkfR0g3vf8siz+D9h7CWMEGeZYMkFGX
+TzuysxkmIDgeYrYGa4MpU+OjsgX1xeDmtQHuqbCKsDa6tIIUAkyxDEBHRjmljOCz
+djONousCAwEAAaN/MH0wHQYDVR0OBBYEFOfpTHUpFFwdMBtauAVbtFwwG8StMFwG
+A1UdEQRVMFOCHHNzby5wZXJkYW5hdW5pdmVyc2l0eS5lZHUubXmGM2h0dHBzOi8v
+c3NvLnBlcmRhbmF1bml2ZXJzaXR5LmVkdS5teS9pZHAvc2hpYmJvbGV0aDANBgkq
+hkiG9w0BAQsFAAOCAYEAW0ENglyC4j1nq9QtJS4CipDkUT87sd1GJHOoePAnHa4O
+YXyxdz4aCQtkdnKzkmnVAQ77MJBdpgcyPscjl8ccllFHPHzvXLuxsH01Aw7tRO+T
+KkPsKqk6OzfBG37BP4kOVloyW8frt6tvWGQM19i6beJa0Xe+M3D2BXz8lfgURB2f
+jvGl974PkCGomXHQv7J5LCI8fNY7EBG+9Gn+Tl/cDat9a3qqRo1pUZDxDrTOqNM6
+A1GkJbj+EriB0niSBwXz/Iyp0lurKFMbB33wTje6aHfxy6xQTpkcF9gxc/Qu8ewB
+ZkeLHa7tvOnwYw9OkIPODesivQczt99MRzaltDO21LSVwCF17cHUGWG1if+AHeXP
+1exr/GFoRGtlZVu4nh6RMUbbJEBlS02DVFCnmrbonaJvPtIvzR7sbdk+3Vto75Ei
+a7yc11jvuVQCvIeuTdShN/YPwqY/HZEJu2WUj9GUdHXVsQ7ToiCrmeIiv+FvxH9d
+pnzopUKAARvWXRxnt1cm
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:KeyDescriptor use="encryption">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>
+MIIEXDCCAsSgAwIBAgIVAPSZsIg7vNIzm/O1mEO9MB5ogoi4MA0GCSqGSIb3DQEB
+CwUAMCcxJTAjBgNVBAMMHHNzby5wZXJkYW5hdW5pdmVyc2l0eS5lZHUubXkwHhcN
+MjEwOTEwMjExMzEwWhcNNDEwOTEwMjExMzEwWjAnMSUwIwYDVQQDDBxzc28ucGVy
+ZGFuYXVuaXZlcnNpdHkuZWR1Lm15MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIB
+igKCAYEA7xvHIpSO7pkyKGgI5wmtQ7c0LimeW9JlZo2jZyZm4S2Llxqok6YvyHHk
+dFRF0xXnSVPLkeBMWv82lJFMPqkQyJa2ddsk2j9nPpVI6Z/1Tilpy5vbb4Wbs0BO
+QcMC6Q0MCQ/3sXGobM02iLwO7/jG+y1qZvOq1rXlSk2/QaRtJjs9GldkeX8DmCHV
+5YlZdUu1Z/xhGLEwflmou+1yDwdr5ghvs6yuHbeDPwCiDOVaUViKXFm9vKIq6x0Y
+QwCLgjrIjenjI4G+o3hpKfOAA/7+ifFPB7zUxLRg/DH7m9/0UXbeb7UYdlczE0vo
+AipLZcEmXjMd9EixdbkFNWhCHw7T759of5nv8Ae/1R0tmjiUaAUsPA2TaoUWSRaC
+SBxAq4NLMT+lGhel2On4NgrU45gn8xVzHNai4PH0rs2uk4MUACtjwAPqUcaI+cXg
+5K90wefB3QmHeeZO21pEzZvSEFMDhwb/TjLKwUibj1iEU0FtCIxMKiG0EGo6VYdz
+hDNFvB2RAgMBAAGjfzB9MB0GA1UdDgQWBBTTASLfRrVQyeafyKnpVX2QqYzQDDBc
+BgNVHREEVTBTghxzc28ucGVyZGFuYXVuaXZlcnNpdHkuZWR1Lm15hjNodHRwczov
+L3Nzby5wZXJkYW5hdW5pdmVyc2l0eS5lZHUubXkvaWRwL3NoaWJib2xldGgwDQYJ
+KoZIhvcNAQELBQADggGBADY5se4lPmPaOhXSnEDRSQEb1tRNNNEA6TWdo0yJS/D6
+/L65ZFM+n3j6svjNv4cHvYgFOvw3SC+GdWtwJfygRZe74nJpHM9wz6yKvoof8lE+
+Y0Avg+wF4bBCR3VotGMJsUYt69+a0al01JN51+1Z18xJb1d+shGQs9NYC5x6X75U
+N3Ma6YFNoot9wqpxDOVxNLYBKdEIwMgKxbsUiFkI22ESkroEJFraMSpxMjUeUBO5
+n31O6hattJM6jWP3uJ0rUDtX6SDqfyC2Il+d4fNNessMoQi4EQZpMNXk9jZlMPIo
+Wf/8e1iJiuQ9FS6iSDkNF70JU0jxQZJo/TXR3hdadcWSBIADouER7of49o43c9I3
+kBV2YGqYJEJeENR5N/bCIgvaO1wRDMu2Mye2n+70+IZcHWmSQa8ybBE0KgIG4NQO
+jfzjRZuOOpJWvg7TLVslRaFFEcYaISORXZfRrJoE9nx4yR0b4jA09wap78I2BRPN
+AeBdr7tG6OHMP464IeW7qQ==
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:AttributeService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://sso.perdanauniversity.edu.my/idp/profile/SAML1/SOAP/AttributeQuery"/>
+        <md:AttributeService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://sso.perdanauniversity.edu.my/idp/profile/SAML2/SOAP/AttributeQuery"/>
+    </md:AttributeAuthorityDescriptor>
+    <md:Organization>
+        <md:OrganizationName xml:lang="en">Perdana University</md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="en">Perdana University</md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="en">https://www.perdanauniversity.edu.my</md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson contactType="support">
+        <md:GivenName>IT</md:GivenName>
+        <md:SurName>Helpdesk</md:SurName>
+        <md:EmailAddress>mailto:it-helpdesk@perdanauniversity.edu.my</md:EmailAddress>
+    </md:ContactPerson>
 </md:EntityDescriptor><md:EntityDescriptor entityID="https://sso-devel.perdanauniversity.edu.my/saml2/idp/metadata.php">
   <md:Extensions xmlns:alg="urn:oasis:names:tc:SAML:metadata:algsupport">
     <alg:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
