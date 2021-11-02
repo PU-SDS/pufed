@@ -6,6 +6,7 @@
     - /github/workspace/eduvpn-metadata.xml
     - /github/workspace/sso-metadata.xml
     - /github/workspace/sso-devel-metadata.xml
+    - /github/workspace/eduroam-metadata.xml
     #- https://sifulan.my/metadata/sifulan-full-metadata.xml
 - select:
 - xslt:
