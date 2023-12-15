@@ -28,7 +28,8 @@ jobs:
         run:
           echo "$PUFED_KEY" | base64 --decode > pufed.key
       - name: Sign the metadata
-        uses: docker://docker.sunet.se/pyff:stable
+        #uses: docker://docker.sunet.se/pyff:stable
+        uses: docker://farhansj/sifulan-signer:0.1.7
         with:
           entrypoint: pyff
           args: /github/workspace/pufed.pyff
