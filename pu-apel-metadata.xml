@@ -1,5 +1,5 @@
 <md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"
-  xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://pu-apel.perdanauniversity.edu.my/auth/saml2/sp/metadata.php" ID="_b2af9400fb164f652c7c56142530e48fb144eae99f89e6fc75ac009e8416e85f">
+  xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" entityID="https://pu-apel.perdanauniversity.edu.my/auth/saml2/sp/metadata.php" ID="_b2af9400fb164f652c7c56142530e48fb144eae99f89e6fc75ac009e8416e85f">
   <ds:Signature>
     <ds:SignedInfo>
       <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
